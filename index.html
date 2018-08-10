@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+    <title>Greater Movies</title>
+</head>
+
+<body>
+    <main>
+        <header class="head">
+            <figure class="logo-figure">
+                <span class="menu-button" onclick="openNav()">
+                    <i class="fas fa-bars"></i>
+                </span>
+                <a href="#" title="">
+                    <img src="logo.svg">
+                </a>
+            </figure>
+
+            <div id="mobile-nav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <a href="#">Home</a>
+                    <a href="#">Netflix</a>
+                    <a href="#">Amazon Prime</a>
+                    <a href="#">Hulu</a>
+                    <a href="#">HBO</a>
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+
+                </div>
+            </div>
+
+            <nav class="desktop-nav">
+                <ul>
+                    <li>
+                        <a href="#" title="Home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#" class="active" title="Netflix">Netflix</a>
+                    </li>
+                    <li>
+                        <a href="#" title="Amazon Prime">Amazon Prime</a>
+                    </li>
+                    <li>
+                        <a href="#" title="Hulu">Hulu</a>
+                    </li>
+                    <li>
+                        <a href="#" title="HBO">HBO</a>
+                    </li>
+                    <li>
+                        <a href="#" title="HBO">About</a>
+                    </li>
+                    <li>
+                        <a href="#" title="HBO">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <article>
+            <header class="post-header">
+                <figure class="post-img">
+                    <img src="img.jpg" />
+                </figure>
+                <div class="post-info">
+                    <h1 class="post-title">The Best Movies on Netflix Right Now (August 2018)
+                    </h1>
+                    <div class="post-meta">
+                        <i class="fas fa-user-edit"></i>
+                        <a>GM STAFF</a>
+                        <i class="post-time far fa-clock"></i>
+                        <a>08/07/2018</a>
+                    </div>
+                </div>
+            </header>
+
+            <div class="post-content">
+                <p>Netflix released one of its first feature films in November 2014. Virunga, an Oscar-nominated documentary
+                    about conservation efforts around the last of the mountain gorillas in Virunga National Park in eastern
+                    Congo, did the festival circuit and was picked up in an exclusive deal by the streaming service, which
+                    even then was home to critically lauded original series like House of Cards and Orange Is the New Black.
+                    The film got a limited theatrical release for awards consideration and was made available to subscribers
+                    simultaneously. This impressive early release could have also been seen as a shot across the bow for
+                    the modern movie industry. Netflix was just getting started. We’ve gathered some of the best Netflix
+                    original movies, as well as exclusives, in this list of the top films released by Netflix ranked by Tomatometer,
+                    including Okja, Mudbound, Gerald’s Game, Beasts of No Nation, Cargo, and more! To be included in our
+                    list of the best of Netflix movies, titles must be Fresh (60% or higher), and films must have over 20
+                    Tomatometer-eligible reviews — one reason you won’t find Virunga, for example, with a 100% rating on
+                    15 reviews, below (for now). Netflix films that opened in fewer than 100 theatrical screens were included.
+                    Ties were decided by the number of reviews on each title, and then alphabetically where the number of
+                    reviews were the same.</p>
+            </div>
+        </article>
+
+        <section class="cards">
+            <article class="card">
+                <figure class="card-left">
+                    <img src="https://m.media-amazon.com/images/M/MV5BYTlmNjU3NTktNDRjZi00MDVmLThmMTAtMzJmNDM0MTdhMzZlXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SY1000_CR0,0,675,1000_AL_.jpg"
+                    />
+                </figure>
+
+                <article class="card-right">
+                    <h2>
+                        <span class="card-rank">#1</span>
+                        Strong Island (2017)</h2>
+                    <div class="card-ratings">
+                        <div class="rating">
+                            <span title="Rotten Tomatoes" class="rt-icon"></span>
+                            <span class="card-score">100%</span>
+                        </div>
+                        <div class="rating">
+                            <span title="IMDb" class="imdb">IMDb</span>
+                            <span class="card-score">6.4/10</span>
+                        </div>
+                        <div class="rating">
+                            <span title="Runtime" class="runtime">
+                                <i class="far fa-clock"></i>
+                            </span>
+                            <span class="card-score">1h 47m</span>
+                        </div>
+                    </div>
+                    <article title="Fan Review" class="fan-review">
+                        <p>By structuring this film as an intimate exploration of the pain and personal suffering that a family
+                            was forced to go through following a horrific tragedy, Ford creates a poignant and heartbreaking
+                            documentary that exposes the injustices of a racist society and justice system.
+                        </p>
+                    </article>
+                    <article class="buttons">
+                        <a href="#">
+                            <div class="button-trailer">
+                                <i class="far fa-play-circle"></i>
+                               WATCH TRAILER
+                            </div>
+                        </a>
+                    </article>
+                </article>
+                <article class="one-column">
+                    <h3>Movie Summary</h3>
+                    <p>Examining the violent death of the filmmaker's brother and the judicial system that allowed his killer
+                        to go free, this documentary interrogates murderous fear and racialized perception, and re-imagines
+                        the wreckage in catastrophe's wake, challenging us to change.
+                    </p>
+                </article>
+            </article>
+        </section>
+
+        <footer>
+            <header class="head">
+                <figure>
+                    <img src="footer-logo.svg">
+                </figure>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#" title="CONTACT">CONTACT</a>
+                        </li>
+                        <li>
+                            <a href="#" title="TERMS OF SERVICE">TERMS OF SERVICE</a>
+                        </li>
+                        <li>
+                            <a href="#" title="DMCA POLICY">DMCA POLICY</a>
+                        </li>
+                        <li>
+                            <a href="#" title="PRIVACY POLICY">PRIVACY POLICY</a>
+                        </li>
+                    </ul>
+                </nav>
+                <span class="copyright">© COPYRIGHT 2018 GREATER MOVIES · ALL RIGHTS RESERVED</span>
+            </header>
+        </footer>
+    </main>
+</body>
+<script src="core.js"></script>
+
+</html>

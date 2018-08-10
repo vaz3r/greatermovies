@@ -1,0 +1,477 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+.post-header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10%;
+}
+
+figure {
+    margin: 0;
+}
+
+.post-img {
+    width: 100%;
+    height: auto;
+}
+
+.post-img img {
+    width: 100%;
+    height: auto;
+}
+
+.post-title {
+    font-size: 2em;
+    font-weight: 600;
+    margin-top: .4em;
+    margin-bottom: .4em;
+}
+
+.post-meta {
+    font-weight: 600;
+    color: #757575;
+    font-size: 85%;
+}
+
+.post-time {
+    margin-left: 1em;
+}
+
+.post-content {
+    margin-bottom: 6%;
+}
+
+p {
+    font-size: 1.1rem;
+    word-wrap: break-word;
+    line-height: 1.9;
+    color: #616161;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 10%;
+}
+
+.card-left {
+    width: 35%;
+}
+
+.card-left img {
+    width: 100%;
+}
+
+.card-right {
+    width: 63%;
+    padding-left: 2%;
+}
+
+.card-right h2 {
+    margin: 0;
+    margin-bottom: 4%;
+}
+
+.rt-icon {
+    background: transparent url('rt.png') no-repeat;
+    background-size: cover;
+    height: 28px;
+    width: 28px;
+}
+
+.imdb-icon {
+    background: transparent url('imdb.svg') no-repeat;
+    background-size: cover;
+    width: 53px;
+}
+
+.card-ratings {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card-score {
+    font-size: 1.2em;
+    font-weight: 700;
+    margin-left: 2px;
+    align-self: center;
+}
+
+.rating {
+    display: flex;
+    margin-right: 14px;
+}
+
+.imdb {
+    background-color: #FFC107;
+    color: black;
+    font-weight: 700;
+    padding: 3px;
+    margin-right: 8px;
+}
+
+.card-rank {
+    font-size: .9em;
+    background: #EEEEEE;
+    border-radius: 2px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-right: 5px;
+}
+
+.runtime {
+    font-size: 1.4em;
+    margin-right: 5px;
+}
+
+.fan-review {
+    background-color: #EEEEEE;
+    padding: 12px;
+    margin-top: 18px;
+    border-radius: 4px;
+}
+
+.fan-review p {
+    margin: 0;
+}
+
+.one-column {
+    width: 100%;
+}
+
+.one-column h3 {
+    margin-bottom: 1%;
+}
+
+.one-column p {
+    margin: 0;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    flex-direction: column;
+}
+
+.logo-figure {
+    width: 60%;
+}
+
+.logo-figure img {
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+header ul li {
+    display: inline-block;
+    padding: 0 1.4em 0 0;
+    font-size: 110%;
+    font-weight: 400;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+li a.active {
+    color: #000000;
+    border-bottom: 4px solid #f26363;
+    font-weight: 400;
+    padding-bottom: 4%;
+}
+
+li a:hover {
+    border-bottom: 4px solid #020000;
+    font-weight: 400;
+    padding-bottom: 4%;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+footer header figure {
+    display: flex;
+    justify-content: center;
+}
+
+footer header figure img {
+    width: 100%;
+    height: 65px;
+}
+
+footer header span {
+    text-align: center;
+}
+
+.buttons {
+    margin-top: 3%;
+}
+
+.button-trailer {
+    display: flex;
+    background: #f26363;
+    padding: 3%;
+    justify-content: center;
+    color: white;
+    border-radius: 4px;
+    align-items: center;
+}
+
+.button-trailer:hover {
+    opacity: 0.8;
+}
+
+.button-trailer i {
+    font-size: 2em;
+    margin-right: 2%;
+}
+
+.buttons a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+/* movie-card background
+background: #FAFAFA;
+padding: 10px;
+border-radius: 4px; */
+
+/* MOBILE NAVIGATION STYLE */
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+/* SMARTPHONES */
+
+@media only screen and (max-width: 426px) {
+    /* NAVIGATION OVERLAY */
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+    /* ================================================= */
+    /* MAIN, HEADER */
+    .logo-figure a {
+        width: 78% !important;
+        padding-right: 7% !important;
+    }
+    /* ================================================= */
+    /* POST HEADER AND PARAGRAPH */
+    .post-title {
+        font-size: 1.3rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+    /* ================================================= */
+    /* CARDS */
+    .card {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-left {
+        width: 65%;
+        margin-bottom: 8%;
+    }
+
+    .card-right {
+        width: 100%;
+        padding: 0;
+    }
+
+    .card-ratings {
+        flex-wrap: wrap;
+    }
+
+    .rating {
+        margin-bottom: 2%;
+    }
+    /* ================================================= */
+}
+
+/* TABLETS */
+@media only screen and (min-width: 426px) and (max-width: 600px) {
+    /* CARDS */
+
+    .card {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-left {
+        width: 50%;
+        margin-bottom: 8%;
+    }
+
+    .card-right {
+        width: 100%;
+        padding: 0;
+    }
+
+    .card-ratings {
+        flex-wrap: wrap;
+    }
+
+    .rating {
+        margin-bottom: 2%;
+    }
+    /* ================================================= */
+}
+
+@media only screen and (max-width: 1024px) {
+    /* MAIN, HEADER */
+    main {
+        width: 95% !important;
+    }
+    .menu-button {
+        display: flex !important;
+        justify-content: flex-start;
+        background: #F5F5F5;
+        padding: 8px;
+        font-size: 175%;
+        color: #757575;
+    }
+    .desktop-nav {
+        display: none !important;
+    }
+    .logo-figure {
+        display: flex !important;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100% !important;
+    }
+    .logo-figure a {
+        width: 70% !important;
+        padding-right: 12% !important;
+    }
+    /* ================================================= */
+    /* FOOTER */
+    nav {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        flex-direction: column;
+    }
+    nav ul {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    nav ul li {
+        padding: 0;
+        margin-bottom: 2%;
+    }
+    /* ================================================= */
+}
+
+/* SMALL SCREEN LAPTOPS */
+
+@media only screen and (max-width: 1300px) {
+    /* MAIN, HEADER */
+    .menu-button {
+        display: none;
+    }
+    main {
+        width: 70%;
+    }
+    /* ================================================= */
+}
+
+/* LARGE SCREEN LAPTOPS */
+
+@media only screen and (min-width: 1300px) {
+    /* MAIN, HEADER */
+    .menu-button {
+        display: none;
+    }
+    main {
+        width: 50%;
+    }
+    /* ================================================= */
+}
