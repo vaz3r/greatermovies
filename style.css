@@ -49,6 +49,17 @@ figure {
     font-weight: 600;
     color: #757575;
     font-size: 85%;
+    display: flex;
+    align-items: center;
+}
+
+.post-meta span {
+    font-size: 1.4em;
+}
+
+.post-meta a {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .post-time {
@@ -151,6 +162,10 @@ p {
     margin-right: 5px;
 }
 
+.runtime span {
+    font-size: 1.2em;
+}
+
 .fan-review {
     background-color: #EEEEEE;
     padding: 12px;
@@ -240,6 +255,7 @@ footer header figure img {
 
 footer header span {
     text-align: center;
+    font-weight: 700;
 }
 
 .buttons {
@@ -248,7 +264,7 @@ footer header span {
 
 .button-trailer {
     display: flex;
-    background: #f26363;
+    background: #d32f2f;
     padding: 3%;
     justify-content: center;
     color: white;
@@ -260,7 +276,7 @@ footer header span {
     opacity: 0.8;
 }
 
-.button-trailer i {
+.button-trailer span {
     font-size: 2em;
     margin-right: 2%;
 }
