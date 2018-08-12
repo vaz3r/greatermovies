@@ -38,6 +38,10 @@ figure {
     height: auto;
 }
 
+.post-info {
+    margin: 2% 0 0 0;
+}
+
 .post-title {
     font-size: 2em;
     font-weight: 600;
