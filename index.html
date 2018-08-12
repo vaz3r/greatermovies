@@ -2,19 +2,6 @@
 <html lang="en">
 
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-86484076-8"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-86484076-8');
-    </script>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css" />
@@ -55,6 +42,19 @@
     <meta name="description" content="We've curated and ranked a list of the best movies on Netflix including some of the best Netflix originals."
     />
     <title>Best Netflix Movies to Watch Right Now - Greater Movies</title>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-86484076-8"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-86484076-8');
+    </script>
 </head>
 
 <body>
@@ -215,7 +215,7 @@
         </footer>
     </main>
 </body>
-<script>
+<script async>
     var disqus_config = function () {
         this.page.url = "https://vaz3r.github.io/greatermovies/";
         this.page.identifier = "page-netflix-best-right-now";
@@ -228,6 +228,6 @@
         (d.head || d.body).appendChild(s);
     })();
 </script>
-<script src="core.js"></script>
+<script src="core.js" async></script>
 
 </html>
