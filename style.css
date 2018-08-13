@@ -21,7 +21,7 @@ article {
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 figure {
@@ -219,25 +219,26 @@ header ul li {
     display: inline-block;
     padding: 0 1.4em 0 0;
     font-size: 110%;
-    font-weight: 400;
+    font-weight: 700;
 }
 
 header ul li a {
     text-decoration: none;
-    color: black;
+    color: #000000a6;
 }
 
 li a.active {
     color: #000000;
     border-bottom: 4px solid #f26363;
-    font-weight: 400;
+    font-weight: 700;
     padding-bottom: 4%;
 }
 
 li a:hover {
     border-bottom: 4px solid #020000;
-    font-weight: 400;
+    font-weight: 700;
     padding-bottom: 4%;
+    color: #000000;
 }
 
 footer {
