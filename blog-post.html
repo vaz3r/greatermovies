@@ -39,9 +39,9 @@
     <meta property="twitter:image:src" content="https://moz.com/uploads/twitter_image/58eecaf1813d15.70237262.png" />
     <meta property="twitter:creator" content="@katemorris" />
     <link rel="canonical" href="https://greatermovies.com/best-movies-on-netflix-to-watch-right-now" />
-    <meta name="description" content="Greater Movies' main goal is to help our readers find the best lists of hand-curated movies, tv shows/series, trailers, media streaming devices, apps, and tutorials."
+    <meta name="description" content="We've curated and ranked a list of the best movies on Netflix including some of the best Netflix originals."
     />
-    <title>About - Greater Movies</title>
+    <title>Best Netflix Movies to Watch Right Now - Greater Movies</title>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-86484076-8"></script>
@@ -65,7 +65,7 @@
                     <span class="icon-menu"></span>
                 </span>
                 <a href="#" title="Greater Movies">
-                    <img alt="Greater Movies" src="logo.svg">
+                    <img alt="Greater Movies" src="resources/logo.svg">
                 </a>
             </figure>
 
@@ -108,30 +108,91 @@
                 </ul>
             </nav>
         </header>
-
         <article>
             <header class="post-header">
                 <figure class="post-img">
-                    <img alt="About" src="about.jpg" />
+                    <img alt="Post Image" src="images/img.jpg" />
                 </figure>
+                <div class="post-info">
+                    <h1 class="post-title">The Best Movies on Netflix Right Now
+                    </h1>
+                    <div class="post-meta">
+                        <span class="icon-profile"></span>
+                        <a>GM STAFF</a>
+                        <span class="icon-calendar"></span>
+                        <a>08/07/2018</a>
+                    </div>
+                </div>
             </header>
 
             <div class="post-content">
-                <h1>Welcome to Greater Movies!</h1>
-                <p>
-                    <strong>Greater Movies'</strong> main goal is to help our readers find the best lists of hand-curated movies, tv shows/series, trailers, media
-                    streaming devices, apps, and tutorials.
-                </p>
-                <p>
-                    Our mission is to simply help you from buying to watching your next favorite media.
-                </p>
+                <p>Netflix released one of its first feature films in November 2014. Virunga, an Oscar-nominated documentary
+                    about conservation efforts around the last of the mountain gorillas in Virunga National Park in eastern
+                    Congo, did the festival circuit and was picked up in an exclusive deal by the streaming service, which
+                    even then was home to critically lauded original series like House of Cards and Orange Is the New Black.</p>
+                <p>The film got a limited theatrical release for awards consideration and was made available to subscribers
+                    simultaneously. This impressive early release could have also been seen as a shot across the bow for
+                    the modern movie industry. Netflix was just getting started. We’ve gathered some of the best Netflix
+                    original movies, as well as exclusives, in this list of the top films released by Netflix ranked by Tomatometer,
+                    including Okja, Mudbound, Gerald’s Game, Beasts of No Nation, Cargo, and more! To be included in our
+                    list of the best of Netflix movies, titles must be Fresh (60% or higher), and films must have over 20
+                    Tomatometer-eligible reviews — one reason you won’t find Virunga, for example, with a 100% rating on
+                    15 reviews, below (for now). Netflix films that opened in fewer than 100 theatrical screens were included.</p>
+                <p>Ties were decided by the number of reviews on each title, and then alphabetically where the number of reviews
+                    were the same.</p>
             </div>
         </article>
 
+        <section class="cards">
+            <article class="card">
+                <figure class="card-left">
+                    <img alt="Movie Image" src="https://m.media-amazon.com/images/M/MV5BYTlmNjU3NTktNDRjZi00MDVmLThmMTAtMzJmNDM0MTdhMzZlXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SY1000_CR0,0,675,1000_AL_.jpg"
+                    />
+                </figure>
+
+                <article class="card-right">
+                    <h2>
+                        <span>#1</span>
+                        Strong Island (2017)</h2>
+                    <div class="card-ratings">
+                        <div class="rating">
+                            <span title="Rotten Tomatoes" class="rt-icon"></span>
+                            <span class="card-score">100%</span>
+                        </div>
+                        <div class="rating">
+                            <span title="IMDb" class="imdb">IMDb</span>
+                            <span class="card-score">6.4/10</span>
+                        </div>
+                        <div class="rating">
+                            <span title="Runtime" class="runtime">
+                                <span class="icon-stopwatch"></span>
+                            </span>
+                            <span class="card-score">1h 47m</span>
+                        </div>
+                    </div>
+                    <article title="Movie Summary" class="fan-review">
+                        <p>Examining the violent death of the filmmaker's brother and the judicial system that allowed his killer
+                            to go free, this documentary interrogates murderous fear and racialized perception, and re-imagines
+                            the wreckage in catastrophe's wake, challenging us to change.
+                        </p>
+                    </article>
+                    <article class="buttons">
+                        <a href="#">
+                            <div class="button-trailer">
+                                <span class="icon-youtube"></span>
+                                WATCH TRAILER
+                            </div>
+                        </a>
+                    </article>
+                </article>
+            </article>
+        </section>
+
         <footer>
+            <div id="disqus_thread"></div>
             <header class="head">
                 <figure>
-                    <img alt="Greater Movies" src="footer-logo.svg">
+                    <img alt="Greater Movies" src="resources/footer-logo.svg">
                 </figure>
                 <nav>
                     <ul>
@@ -154,7 +215,20 @@
         </footer>
     </main>
 </body>
-
-<script src="core.js" async></script>
+<script async>
+    var disqus_config = function () {
+        this.page.url = "https://vaz3r.github.io/greatermovies/";
+        this.page.identifier = "page-netflix-best-right-now";
+    };
+    (function () {
+        var d = document,
+            s = d.createElement('script');
+        s.src = 'https://greater-movies.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        s.async = true;
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<script src="static/core.js" async></script>
 
 </html>

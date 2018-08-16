@@ -118,12 +118,6 @@ p {
     width: 28px;
 }
 
-.imdb-icon {
-    background: transparent url('imdb.svg') no-repeat;
-    background-size: cover;
-    width: 53px;
-}
-
 .card-ratings {
     display: flex;
     flex-direction: row;
@@ -341,6 +335,53 @@ border-radius: 4px; */
     font-size: 60px;
 }
 
+.posts-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 5%;
+    flex-wrap: wrap;
+}
+
+.post-card {
+    background: #F5F5F5;
+    border-radius: 5px;
+    width: 48%;
+    height: 100%;
+    margin-bottom: 3%;
+    opacity: 0.9;
+}
+
+.post-card:hover {
+    opacity: 1;
+}
+
+.post-card img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.post-card h2 {
+    margin: 4px 10px 0px 10px;
+    color: #424242;
+    font-weight: 700;
+    font-size: 1.3em;
+}
+
+.post-card a {
+    text-decoration: none;
+}
+
+.post-card p {
+    margin: 0px 10px 10px 10px;
+    color: #D32F2F;
+    font-weight: 700;
+    font-size: 1em;
+}
+
 /* SMARTPHONES */
 
 @media only screen and (max-width: 426px) {
@@ -389,6 +430,12 @@ border-radius: 4px; */
 
     .rating {
         margin-bottom: 2%;
+    }
+    /* ================================================= */
+    /* HOMEPAGE */
+    .post-card {
+        width: 100%!important;
+        margin-bottom: 6%!important;
     }
     /* ================================================= */
 }
@@ -468,6 +515,11 @@ border-radius: 4px; */
     nav ul li {
         padding: 0;
         margin-bottom: 2%;
+    }
+    /* ================================================= */
+    /* HOMEPAGE */
+    .post-card {
+        width: 48%;
     }
     /* ================================================= */
 }
