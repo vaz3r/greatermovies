@@ -293,6 +293,7 @@ padding: 10px;
 border-radius: 4px; */
 
 /* MOBILE NAVIGATION STYLE */
+
 .overlay {
     height: 100%;
     width: 0;
@@ -340,7 +341,7 @@ border-radius: 4px; */
     flex-direction: row;
     width: 100%;
     justify-content: space-around;
-    margin-top: 5%;
+    /* margin-top: 5%; */
     flex-wrap: wrap;
 }
 
@@ -382,11 +383,21 @@ border-radius: 4px; */
     font-size: 1em;
 }
 
+.posts-title {
+    color: #212121;
+    background: #f8f8f8;
+    padding: 2% 2% 2% 2%;
+    border-radius: 5px;
+    margin: 4% 1% 2% 1%;
+}
+
 /* SMARTPHONES */
 
 @media only screen and (max-width: 426px) {
     /* NAVIGATION OVERLAY */
-    .overlay a {font-size: 20px}
+    .overlay a {
+        font-size: 20px
+    }
     .overlay .closebtn {
         font-size: 40px;
         top: 15px;
@@ -413,57 +424,56 @@ border-radius: 4px; */
         justify-content: center;
         align-items: center;
     }
-
     .card-left {
         width: 65%;
         margin-bottom: 8%;
     }
-
     .card-right {
         width: 100%;
         padding: 0;
     }
-
     .card-ratings {
         flex-wrap: wrap;
     }
-
     .rating {
         margin-bottom: 2%;
     }
     /* ================================================= */
     /* HOMEPAGE */
     .post-card {
-        width: 100%!important;
-        margin-bottom: 6%!important;
+        width: 100% !important;
+        margin-bottom: 6% !important;
+    }
+    .posts-title {
+        margin: 0 0 6% 0;
+    }
+
+    .head {
+        margin-bottom: 6%;
     }
     /* ================================================= */
 }
 
 /* TABLETS */
+
 @media only screen and (min-width: 426px) and (max-width: 600px) {
     /* CARDS */
-
     .card {
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
     }
-
     .card-left {
         width: 50%;
         margin-bottom: 8%;
     }
-
     .card-right {
         width: 100%;
         padding: 0;
     }
-
     .card-ratings {
         flex-wrap: wrap;
     }
-
     .rating {
         margin-bottom: 2%;
     }
