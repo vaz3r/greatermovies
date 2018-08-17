@@ -384,13 +384,32 @@ border-radius: 4px; */
 }
 
 .posts-title {
-    color: #212121;
-    background: #f8f8f8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    background: #9E9E9E;
     padding: 2% 2% 2% 2%;
     border-radius: 5px;
     margin: 4% 1% 2% 1%;
 }
 
+.posts-title:hover {
+    opacity: 0.8;
+}
+
+.posts-title h1 {
+    margin: 0;
+}
+
+.posts-title span {
+    font-weight: 700!important;
+}
+
+.feature-link {
+    text-decoration: none;
+}
 /* SMARTPHONES */
 
 @media only screen and (max-width: 426px) {
@@ -446,6 +465,7 @@ border-radius: 4px; */
     }
     .posts-title {
         margin: 0 0 6% 0;
+        padding: 3%;
     }
 
     .head {
