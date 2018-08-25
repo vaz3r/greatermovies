@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="static/style.css" />
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
     <link rel="stylesheet" href="static/icons.css">
     <link rel="apple-touch-icon" sizes="180x180" href="resources/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="resources/favicon-32x32.png">
@@ -41,6 +41,7 @@
     <link rel="canonical" href="https://greatermovies.com/best-movies-on-netflix-to-watch-right-now" />
     <meta name="description" content="We've curated and ranked a list of the best movies on Netflix including some of the best Netflix originals."
     />
+
     <title>Best Netflix Movies to Watch Right Now - Greater Movies</title>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -72,12 +73,12 @@
             <div id="mobile-nav" class="overlay">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                 <div class="overlay-content">
-                    <a href="#">HOME</a>
-                    <a href="#">MOVIES</a>
-                    <a href="#">TV</a>
-                    <a href="#">TRAILERS</a>
-                    <a href="#">DEVICES</a>
-                    <a href="#">APPS</a>
+                    <a href="index.html">HOME</a>
+                    <a href="movies.html">MOVIES</a>
+                    <a href="tv.html">TV</a>
+                    <a href="trailers.html">TRAILERS</a>
+                    <a href="devices.html">DEVICES</a>
+                    <a href="apps.html">APPS</a>
                     <a href="about.html">ABOUT</a>
                 </div>
             </div>
@@ -85,22 +86,22 @@
             <nav class="desktop-nav">
                 <ul>
                     <li>
-                        <a href="#" title="Home">HOME</a>
+                        <a href="index.html" class="active" title="Home">HOME</a>
                     </li>
                     <li>
-                        <a href="#" class="active" title="Movies">MOVIES</a>
+                        <a href="movies.html" title="Movies">MOVIES</a>
                     </li>
                     <li>
-                        <a href="#" title="TV">TV</a>
+                        <a href="tv.html" title="TV">TV</a>
                     </li>
                     <li>
-                        <a href="#" title="Trailers">TRAILERS</a>
+                        <a href="trailers.html" title="Trailers">TRAILERS</a>
                     </li>
                     <li>
-                        <a href="#" title="Devices">DEVICES</a>
+                        <a href="devices.html" title="Devices">DEVICES</a>
                     </li>
                     <li>
-                        <a href="#" title="Apps">APPS</a>
+                        <a href="apps.html" title="Apps">APPS</a>
                     </li>
                     <li>
                         <a href="about.html" title="About">ABOUT</a>
@@ -108,6 +109,7 @@
                 </ul>
             </nav>
         </header>
+
         <article>
             <header class="post-header">
                 <figure class="post-img">
@@ -214,21 +216,21 @@
             </header>
         </footer>
     </main>
+    <script async>
+            var disqus_config = function () {
+                this.page.url = "https://vaz3r.github.io/greatermovies/";
+                this.page.identifier = "page-netflix-best-right-now";
+            };
+            (function () {
+                var d = document,
+                    s = d.createElement('script');
+                s.src = 'https://greater-movies.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', +new Date());
+                s.async = true;
+                (d.head || d.body).appendChild(s);
+            })();
+        </script>
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5b814aeb645632b3" async></script>
+    <script src="static/core.js" async></script>
 </body>
-<script async>
-    var disqus_config = function () {
-        this.page.url = "https://vaz3r.github.io/greatermovies/";
-        this.page.identifier = "page-netflix-best-right-now";
-    };
-    (function () {
-        var d = document,
-            s = d.createElement('script');
-        s.src = 'https://greater-movies.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        s.async = true;
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<script src="static/core.js" async></script>
-
 </html>
