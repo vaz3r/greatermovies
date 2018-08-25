@@ -470,6 +470,17 @@ border-radius: 4px; */
 .page-title h1 {
     margin: 0;
 }
+
+.post-ul {
+    font-size: 1.1rem;
+    color: #616161;
+}
+
+.post-link {
+    text-decoration: none;
+    color: #D32F2F;
+    font-weight: 700;
+}
 /* SMARTPHONES */
 
 @media only screen and (max-width: 426px) {
