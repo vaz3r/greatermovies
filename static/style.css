@@ -192,6 +192,7 @@ p {
     justify-content: center;
     align-items: center;
     margin-top: 5%;
+    margin-bottom: 3%;
     flex-direction: column;
 }
 
@@ -388,11 +389,12 @@ border-radius: 4px; */
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    color: #ffffff;
-    background: #2b2b2b;
-    padding: 2% 2% 2% 2%;
+    color: #2b2b2b;
+    background: #ffffff;
+    padding: 3% 0% 3% 0%;
     border-radius: 3px;
-    margin: 4% 1% 2% 1%;
+    margin: 0% 1% 2% 1%;
+    cursor: pointer;
 }
 
 .posts-title:hover {
@@ -413,14 +415,14 @@ border-radius: 4px; */
 
 .providers {
     flex-direction: row;
-    margin: 4% 1% 0 1%;
+    margin: 0% 1% 0 1%;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
 .card-provider {
     display: flex;
-    background: #EEEEEE;
+    background: #eeeeee33;
     width: 49%;
     justify-content: center;
     align-items: center;
@@ -437,6 +439,18 @@ border-radius: 4px; */
 .card-provider img {
     width: 50%;
     height: auto;
+}
+
+.explore-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #2b2b2b;
+    background: #ffffff;
+    border-radius: 3px;
+    margin: 0% 1% 2% 1%;
+    cursor: pointer;
 }
 
 /* SMARTPHONES */
@@ -493,8 +507,7 @@ border-radius: 4px; */
         margin-bottom: 6% !important;
     }
     .posts-title {
-        margin: 0 0 6% 0;
-        padding: 3%;
+        margin: 0 0 4% 0;
     }
     .head {
         margin-bottom: 6%;

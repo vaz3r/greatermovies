@@ -65,14 +65,14 @@
                     <span class="icon-menu"></span>
                 </span>
                 <a href="#" title="Greater Movies">
-                    <img alt="Greater Movies" src="logo.svg">
+                    <img alt="Greater Movies" src="resources/logo.svg">
                 </a>
             </figure>
 
             <div id="mobile-nav" class="overlay">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                 <div class="overlay-content">
-                    <a href="#">HOME</a>
+                    <a href="index.html">HOME</a>
                     <a href="#">MOVIES</a>
                     <a href="#">TV</a>
                     <a href="#">TRAILERS</a>
@@ -85,10 +85,10 @@
             <nav class="desktop-nav">
                 <ul>
                     <li>
-                        <a href="#" title="Home">HOME</a>
+                        <a href="index.html" title="Home">HOME</a>
                     </li>
                     <li>
-                        <a href="#" class="active" title="Movies">MOVIES</a>
+                        <a href="#" title="Movies">MOVIES</a>
                     </li>
                     <li>
                         <a href="#" title="TV">TV</a>
@@ -103,7 +103,7 @@
                         <a href="#" title="Apps">APPS</a>
                     </li>
                     <li>
-                        <a href="about.html" title="About">ABOUT</a>
+                        <a href="about.html" class="active" title="About">ABOUT</a>
                     </li>
                 </ul>
             </nav>
@@ -112,26 +112,47 @@
         <article>
             <header class="post-header">
                 <figure class="post-img">
-                    <img alt="About" src="about.jpg" />
+                    <img alt="About" src="images/about.jpg" />
                 </figure>
             </header>
 
             <div class="post-content">
                 <h1>Welcome to Greater Movies!</h1>
                 <p>
-                    <strong>Greater Movies'</strong> main goal is to help our readers find the best lists of hand-curated movies, tv shows/series, trailers, media
-                    streaming devices, apps, and tutorials.
+                    <strong>Greater Movies'</strong> main goal is to help our readers find the best lists of hand-curated movies,
+                    tv shows/series, trailers, media streaming devices, apps, and tutorials.
                 </p>
                 <p>
                     Our mission is to simply help you from buying to watching your next favorite media.
                 </p>
+            </div>
+
+            <div class="explore">
+                <div class="explore-title">
+                    <h1>EXPLORE MOVIES &amp; TV SHOWS</h1>
+                </div>
+
+                <article class="providers">
+                    <figure title="Explore Movies &amp; TV Shows on Netflix" class="card-provider">
+                        <img alt="Explore Movies &amp; TV Shows on Netflix" src="images/netflix.svg">
+                    </figure>
+                    <figure title="Explore Movies &amp; TV Shows on Hulu" class="card-provider">
+                        <img alt="Explore Movies &amp; TV Shows on Hulu" src="images/hulu.svg">
+                    </figure>
+                    <figure title="Explore Movies &amp; TV Shows on Amazon Prime Video" class="card-provider">
+                        <img alt="Explore Movies &amp; TV Shows on Amazon Prime Video" src="images/prime.svg">
+                    </figure>
+                    <figure title="Explore Movies &amp; TV Shows on HBO" class="card-provider">
+                        <img alt="Explore Movies &amp; TV Shows on HBO" src="images/hbo.svg">
+                    </figure>
+                </article>
             </div>
         </article>
 
         <footer>
             <header class="head">
                 <figure>
-                    <img alt="Greater Movies" src="footer-logo.svg">
+                    <img alt="Greater Movies" src="resources/footer-logo.svg">
                 </figure>
                 <nav>
                     <ul>
@@ -155,6 +176,6 @@
     </main>
 </body>
 
-<script src="core.js" async></script>
+<script src="static/core.js" async></script>
 
 </html>
