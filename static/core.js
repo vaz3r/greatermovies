@@ -23,5 +23,6 @@ function loadDisqus() {
 document.onreadystatechange = function () {
     if (document.readyState === "complete") {
         loadDisqus();
+        console.log("completed");
     }
 }
