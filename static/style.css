@@ -481,6 +481,11 @@ border-radius: 4px; */
     color: #D32F2F;
     font-weight: 700;
 }
+
+.one-card {
+    width: 98%!important;
+}
+
 /* SMARTPHONES */
 
 @media only screen and (max-width: 426px) {
