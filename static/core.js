@@ -20,10 +20,14 @@ function loadDisqus() {
     (d.head || d.body).appendChild(s);
 }
 
-document.onreadystatechange = function () {
-    console.log(document.readyState);
-    if (document.readyState === "complete") {
-        loadDisqus();
-        console.log("completed");
+if (document.readyState === 'ready' || document.readyState === 'complete') {
+    loadDisqus();
+    console.log("completed");
+} else {
+    document.onreadystatechange = function () {
+        if (document.readyState === 'ready' || document.readyState === 'complete') {
+            loadDisqus();
+            console.log("completed");
+        }
     }
 }
