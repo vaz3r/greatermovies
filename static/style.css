@@ -34,6 +34,7 @@ figure {
 }
 
 .post-img img {
+    border-radius: 3px;
     width: 100%;
     height: auto;
 }
@@ -50,9 +51,9 @@ figure {
 }
 
 .post-meta {
-    font-weight: 600;
+    font-weight: 700;
     color: #757575;
-    font-size: 85%;
+    font-size: 90%;
     display: flex;
     align-items: center;
 }
@@ -486,6 +487,9 @@ border-radius: 4px; */
     width: 98%!important;
 }
 
+.display-none {
+    display: none!important;
+}
 /* SMARTPHONES */
 
 @media only screen and (max-width: 426px) {
