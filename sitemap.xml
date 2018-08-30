@@ -6,45 +6,57 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
+
 <url>
   <loc>https://greatermovies.com/</loc>
-  <lastmod>2018-08-29T18:33:38+00:00</lastmod>
+  <lastmod>2018-08-30T02:58:31+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://greatermovies.com/movies</loc>
-  <lastmod>2018-08-29T18:33:38+00:00</lastmod>
+  <lastmod>2018-08-30T02:58:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://greatermovies.com/tv</loc>
-  <lastmod>2018-08-29T18:33:38+00:00</lastmod>
+  <lastmod>2018-08-30T02:58:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://greatermovies.com/trailers</loc>
-  <lastmod>2018-08-29T18:33:38+00:00</lastmod>
+  <lastmod>2018-08-30T02:58:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://greatermovies.com/devices</loc>
-  <lastmod>2018-08-29T18:33:38+00:00</lastmod>
+  <lastmod>2018-08-30T02:58:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://greatermovies.com/apps</loc>
-  <lastmod>2018-08-29T18:33:38+00:00</lastmod>
+  <lastmod>2018-08-30T02:58:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://greatermovies.com/movies/best-netflix-movies-to-watch-late-august-2018</loc>
-  <lastmod>2018-08-29T18:33:38+00:00</lastmod>
+  <lastmod>2018-08-30T02:58:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://greatermovies.com/movies/most-watched-movies-of-late-august-2018</loc>
-  <lastmod>2018-08-29T18:33:38+00:00</lastmod>
+  <lastmod>2018-08-30T02:58:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
+<url>
+  <loc>https://greatermovies.com/tv/best-tv-shows-on-netflix-right-now</loc>
+  <lastmod>2018-08-30T02:58:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://greatermovies.com/index</loc>
+  <lastmod>2018-08-30T02:58:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
 
 </urlset>
