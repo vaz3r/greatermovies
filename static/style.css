@@ -511,8 +511,20 @@ border-radius: 4px; */
 }
 
 .card-trailer {
-    padding: 0;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.card-trailer img {
     width: 100%;
+    border-radius: 5px;
+}
+
+.card-trailer h2 {
+    font-size: 1.2em;
+    margin: 6%;
+    color: #757575;
 }
 /* SMARTPHONES */
 
