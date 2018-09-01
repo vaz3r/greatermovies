@@ -485,11 +485,11 @@ border-radius: 4px; */
 }
 
 .one-card {
-    width: 98%!important;
+    width: 98% !important;
 }
 
 .display-none {
-    display: none!important;
+    display: none !important;
 }
 
 .embed-container {
@@ -510,10 +510,32 @@ border-radius: 4px; */
     height: 100%;
 }
 
+.trailer-cards {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.trailer-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 5%;
+    width: 24%;
+    opacity: 0.9;
+}
+
+.trailer-card:hover {
+    opacity: 1;
+}
+
 .card-trailer {
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    position: relative;
 }
 
 .card-trailer img {
@@ -525,6 +547,36 @@ border-radius: 4px; */
     font-size: 1.2em;
     margin: 6%;
     color: #757575;
+}
+
+.trailer-play {
+    width: 50%!important;
+    position: absolute;
+    top: 30%;
+}
+
+.video-modal {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background: #000000b8;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-content {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-content .embed-container {
+    width: 100%;
 }
 /* SMARTPHONES */
 
@@ -589,7 +641,6 @@ border-radius: 4px; */
     .card-provider {
         height: 115px;
     }
-
     .providers {
         margin: 4% 0% 0 0%;
     }
@@ -601,8 +652,16 @@ border-radius: 4px; */
     .page-title {
         margin: 2% 1% 3% 0%;
     }
-
     /* ================================================= */
+    /* TRAILER  */
+    .trailer-card {
+        width: 48%!important;
+    }
+    /* ================================================= */
+    /* VIDEO  */
+    .video-content {
+        width: 95%!important;
+    }
 }
 
 /* TABLETS */
@@ -629,6 +688,15 @@ border-radius: 4px; */
         margin-bottom: 2%;
     }
     /* ================================================= */
+    /* TRAILER  */
+    .trailer-card {
+        width: 32%!important;
+    }
+    /* ================================================= */
+    /* VIDEO  */
+    .video-content {
+        width: 95%!important;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -683,6 +751,15 @@ border-radius: 4px; */
         width: 48%;
     }
     /* ================================================= */
+    /* TRAILER  */
+    .trailer-card {
+        width: 24%;
+    }
+    /* ================================================= */
+    /* VIDEO  */
+    .video-content {
+        width: 75%;
+    }
 }
 
 /* SMALL SCREEN LAPTOPS */
