@@ -122,13 +122,10 @@ function getData(database) {
 
                         trailersList.appendChild(trailerCard);
                     }
-                } else {
-                    console.log("NO_IMG");
-                    alert("ERROR2");
                 }
             });
         } else {
-            alert("ERROR1");
+            console.log(this.status);
         }
     };
 
