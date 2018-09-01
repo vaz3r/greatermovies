@@ -6,7 +6,7 @@ function closeNav() {
     document.getElementById("mobile-nav").style.width = "0%";
 }
 
-// VIDEO MODAL
+// VIDEO MODAL ===============================================================================
 var vModal = document.getElementById("vModal");
 var youtubeVideo = document.getElementById("youtubeVideo");
 
@@ -22,7 +22,7 @@ function playVideo(videoID) {
     youtubeVideo.setAttribute("src", "https://www.youtube.com/embed/" + videoID + "?rel=0&amp;showinfo=0&autoplay=1");
 }
 
-// TRAILERS
+// TRAILERS ===================================================================================
 var trailersList = document.getElementById("trailersList");
 var dataID = trailersList.getAttribute("dataType");
 
@@ -81,3 +81,15 @@ if (dataID != "") {
             console.log('Fetch Error :-S', err);
         });
 }
+
+// Notifications ==========================================================================
+var OneSignal = window.OneSignal || [];
+OneSignal.push(function () {
+    OneSignal.init({
+        appId: "b475ce00-919f-47cc-a6a6-d68dbd1087a9",
+        autoRegister: false,
+        notifyButton: {
+            enable: true,
+        },
+    });
+});
