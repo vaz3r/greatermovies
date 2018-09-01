@@ -26,8 +26,8 @@ function playVideo(videoID) {
 var trailersList = document.getElementById("trailersList");
 var dataID = trailersList.getAttribute("dataType");
 
-if (dataID !== "") {
-    fetch('https://greatermovies.com/trailers/data/' + dataID + '.json')
+function fetchData(database) {
+    fetch('https://greatermovies.com/trailers/data/' + database + '.json')
         .then(
             function (response) {
                 if (response.status !== 200) {
@@ -80,6 +80,23 @@ if (dataID !== "") {
         .catch(function (err) {
             console.log('Fetch Error :-S', err);
         });
+}
+
+function getData(database) {
+    var xhttp = new XMLHttpRequest();
+
+    xhttp.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+            console.log(xhttp.responseText);
+        }
+    };
+
+    xhttp.open("GET", 'https://greatermovies.com/trailers/data/' + database + '.json', true);
+    xhttp.send();
+}
+
+if (dataID !== "") {
+    getData(dataID);
 }
 
 // Notifications ==========================================================================
