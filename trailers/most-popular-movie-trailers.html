@@ -44,6 +44,20 @@
 
     <title>Most Popular Movie Trailers - Greater Movies</title>
 
+    <link rel="manifest" href="https://greatermovies.com/static/onesignalSDK/manifest.json" />
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+    <script>
+        var OneSignal = window.OneSignal || [];
+        OneSignal.push(function () {
+            OneSignal.init({
+                appId: "b475ce00-919f-47cc-a6a6-d68dbd1087a9",
+                autoRegister: false,
+                notifyButton: {
+                    enable: true,
+                },
+            });
+        });
+    </script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-86484076-8"></script>
     <script>
@@ -128,64 +142,35 @@
                 </div>
             </header>
 
-            <div class="post-content display-none">
-                <p>Don't know what to watch next? Confused about what TV Show to start watching?
-                    <br> No more confusion! You're at the right place, we're bringing you a curated, and ranked list of the best
-                    tv shows on Netflix right now, sorted by TV Shows ratings and critics/watchers reviews.
+            <div class="post-content">
+                <p>Watch the latest movie trailers and previews for popular current and upcoming releases. Discover new movie
+                    trailers for popular movies playing in theaters.
                 </p>
-                <p>We have ranked the best tv shows on Netflix using both IMDB and RottenTomatoes Community Critics. To be included
-                    in our list, titles must have a rating (60% or higher) on RottenTomatoes and (6/10 or higher) on IMDB,
-                    TV Shows must also have over 20 eligible reviews to be considered.
+                <p>Explore trailers of movies in the box office, opening in theaters, coming soon to theaters, as well as movies
+                    on Netflix, Hulu, HBO, and Amazon Prime Video.
                 </p>
-                <p>TV Shows are updated every week, bookmark the page and stay tuned to get your weekly dose of the best TV
-                    Shows on Netflix.
+                <p>Stay tuned daily for the latest movie, and tv shows trailers, many trailers are available in high-quality
+                    HD.
                 </p>
+                <p>Trailers are updated every day (24 hours),
+                    <strong>bookmark</strong> the page and stay tuned to get your daily dose of the most popular movie trailers.</p>
             </div>
         </article>
+        <!-- <article class="trailer-card">
+                <article class="card-trailer">
+                    <img alt="play" class="trailer-play" src="C:\Users\vaz3r\Documents\GitHub\greatermovies\static\play.png">
+                    <img title="First Man" alt="First Man" src="https://m.media-amazon.com/images/M/MV5BMDBhOTMxN2UtYjllYS00NWNiLWE1MzAtZjg3NmExODliMDQ0XkEyXkFqcGdeQXVyMjMxOTE0ODA@._V1_SY400_AL_.jpg">
+                    <h2>First Man</h2>
+                </article>
+            </article> -->
+        <section class="trailer-cards" id="trailersList">
 
-        <section class="trailer-cards">
-            <article class="trailer-card" onclick="playVideo('videoID');">
-                <article class="card-trailer">
-                    <img alt="play" class="trailer-play" src="C:\Users\vaz3r\Documents\GitHub\greatermovies\static\play.png">
-                    <img title="First Man" alt="First Man" src="https://m.media-amazon.com/images/M/MV5BMDBhOTMxN2UtYjllYS00NWNiLWE1MzAtZjg3NmExODliMDQ0XkEyXkFqcGdeQXVyMjMxOTE0ODA@._V1_SY400_AL_.jpg">
-                    <h2>First Man</h2>
-                </article>
-            </article>
-            <article class="trailer-card">
-                <article class="card-trailer">
-                    <img alt="play" class="trailer-play" src="C:\Users\vaz3r\Documents\GitHub\greatermovies\static\play.png">
-                    <img title="First Man" alt="First Man" src="https://m.media-amazon.com/images/M/MV5BMDBhOTMxN2UtYjllYS00NWNiLWE1MzAtZjg3NmExODliMDQ0XkEyXkFqcGdeQXVyMjMxOTE0ODA@._V1_SY400_AL_.jpg">
-                    <h2>First Man</h2>
-                </article>
-            </article>
-            <article class="trailer-card">
-                <article class="card-trailer">
-                    <img alt="play" class="trailer-play" src="C:\Users\vaz3r\Documents\GitHub\greatermovies\static\play.png">
-                    <img title="First Man" alt="First Man" src="https://m.media-amazon.com/images/M/MV5BMDBhOTMxN2UtYjllYS00NWNiLWE1MzAtZjg3NmExODliMDQ0XkEyXkFqcGdeQXVyMjMxOTE0ODA@._V1_SY400_AL_.jpg">
-                    <h2>First Man</h2>
-                </article>
-            </article>
-            <article class="trailer-card">
-                <article class="card-trailer">
-                    <img alt="play" class="trailer-play" src="C:\Users\vaz3r\Documents\GitHub\greatermovies\static\play.png">
-                    <img title="First Man" alt="First Man" src="https://m.media-amazon.com/images/M/MV5BMDBhOTMxN2UtYjllYS00NWNiLWE1MzAtZjg3NmExODliMDQ0XkEyXkFqcGdeQXVyMjMxOTE0ODA@._V1_SY400_AL_.jpg">
-                    <h2>First Man</h2>
-                </article>
-            </article>
-            <article class="trailer-card">
-                <article class="card-trailer">
-                    <img alt="play" class="trailer-play" src="C:\Users\vaz3r\Documents\GitHub\greatermovies\static\play.png">
-                    <img title="First Man" alt="First Man" src="https://m.media-amazon.com/images/M/MV5BMDBhOTMxN2UtYjllYS00NWNiLWE1MzAtZjg3NmExODliMDQ0XkEyXkFqcGdeQXVyMjMxOTE0ODA@._V1_SY400_AL_.jpg">
-                    <h2>First Man</h2>
-                </article>
-            </article>
         </section>
 
         <div class="video-modal" id="vModal">
             <div class="video-content">
                 <div class='embed-container'>
-                    <iframe id="youtubeVideo" src="https://www.youtube.com/embed/ExUkFvlabLo?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media"
-                        allowfullscreen></iframe>
+                    <iframe id="youtubeVideo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
