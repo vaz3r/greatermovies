@@ -536,6 +536,7 @@ border-radius: 4px; */
     align-items: center;
     cursor: pointer;
     position: relative;
+    text-align: center;
 }
 
 .card-trailer img {

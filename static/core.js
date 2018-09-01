@@ -26,7 +26,7 @@ function playVideo(videoID) {
 var trailersList = document.getElementById("trailersList");
 var dataID = trailersList.getAttribute("dataType");
 
-if (dataID != "") {
+if (dataID !== "") {
     fetch('https://greatermovies.com/trailers/data/' + dataID + '.json')
         .then(
             function (response) {
