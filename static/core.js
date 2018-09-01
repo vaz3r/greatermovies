@@ -88,7 +88,7 @@ function getData(database) {
     xhttp.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
             var obj = JSON.parse(xhttp.responseText);
-            console.log(obj.title);
+            console.log(obj[0].title);
         }
     };
 
