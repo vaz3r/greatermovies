@@ -124,8 +124,11 @@ function getData(database) {
                     }
                 } else {
                     console.log("NO_IMG");
+                    alert("ERROR2");
                 }
             });
+        } else {
+            alert("ERROR1");
         }
     };
 
