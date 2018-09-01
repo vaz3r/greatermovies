@@ -525,6 +525,7 @@ border-radius: 4px; */
     margin-bottom: 5%;
     width: 24%;
     opacity: 0.9;
+    justify-content: center;
 }
 
 .trailer-card:hover {
