@@ -39,6 +39,7 @@ function fetchMovies() {
                     var index = 1;
                     
                     for (obj in json.data) {
+                        console.log(obj);
                         if (!cards.innerHTML.includes(obj.title)) {
                             if (index >= 50) {
                                 break;
