@@ -39,11 +39,11 @@ function fetchMovies() {
                     var index = 1;
 
                     json.data.forEach(function (obj) {
+                        if (index >= 50) {
+                            return false;
+                        }
+                        
                         if (!cards.innerHTML.includes(obj.title)) {
-                            if (index >= 50) {
-                                return false;
-                            }
-                            
                             var card_template = '<article class="card"> <figure class="card-left"> <img alt="{#TITLE}" src="{#IMAGE}"/> </figure> <article class="card-right"> <h2> <span>#{#INDEX}</span> {#TITLE}</h2> <div class="card-ratings"> <div class="rating"> <span title="IMDb" class="imdb">IMDb</span> <span class="card-score">{#RATING}</span> </div><div class="rating"> <span title="Runtime" class="runtime"> <span class="icon-stopwatch"></span> </span> <span class="card-score">{#TIME}</span> </div></div><article title="{#TITLE} Summary" class="fan-review"> <p>{#SUMMARY}</p></article> <article class="buttons"> <a> <div class="button-trailer" onclick="playVideo(\'{#TRAILER}\');"> <span class="icon-youtube"></span> WATCH TRAILER </div></a> </article> </article> </article>';
 
                             card_template += card_template.replace("{#TITLE}", obj.title);
