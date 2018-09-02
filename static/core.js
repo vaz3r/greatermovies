@@ -39,7 +39,7 @@ function fetchMovies() {
                     var index = 1;
                     var obj;
 
-                    for (var i = 0; i <= len(json.data); i++) {
+                    for (var i = 0; i <= json.data.length; i++) {
                         var obj = json.data[i];
 
                         console.log(obj);
