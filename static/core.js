@@ -41,13 +41,13 @@ function fetchMovies() {
                         if (!cards.innerHTML.includes(obj.title)) {
                             var card_template = '<article class="card"> <figure class="card-left"> <img alt="{#TITLE}" src="{#IMAGE}"/> </figure> <article class="card-right"> <h2> <span>#{#INDEX}</span>{#TITLE}</h2> <div class="card-ratings"> <div class="rating"> <span title="IMDb" class="imdb">IMDb</span> <span class="card-score">{#RATING}</span> </div><div class="rating"> <span title="Runtime" class="runtime"> <span class="icon-stopwatch"></span> </span> <span class="card-score">{#TIME}</span> </div></div><article title="{#TITLE}Summary" class="fan-review"> <p>{#SUMMARY}</p></article> <article class="buttons"> <a> <div class="button-trailer" onclick="playVideo(\'{#TRAILER}\');"> <span class="icon-youtube"></span> WATCH TRAILER </div></a> </article> </article> </article>';
 
-                            card_template = card_template.replace("{#TITLE}", obj.title);
-                            card_template = card_template.replace("{#IMAGE}", obj.image);
-                            card_template = card_template.replace("{#INDEX}", index);
-                            card_template = card_template.replace("{#RATING}", obj.rating);
-                            card_template = card_template.replace("{#TIME}", obj.time);
-                            card_template = card_template.replace("{#SUMMARY}", obj.summary);
-                            card_template = card_template.replace("{#TRAILER}", obj.video_url.replace("https://www.youtube.com/watch?v=", ""));
+                            card_template += card_template.replace("{#TITLE}", obj.title);
+                            card_template += card_template.replace("{#IMAGE}", obj.image);
+                            card_template += card_template.replace("{#INDEX}", index);
+                            card_template += card_template.replace("{#RATING}", obj.rating);
+                            card_template += card_template.replace("{#TIME}", obj.time);
+                            card_template += card_template.replace("{#SUMMARY}", obj.summary);
+                            card_template += card_template.replace("{#TRAILER}", obj.video_url.replace("https://www.youtube.com/watch?v=", ""));
 
                             cards.innerHTML += card_template;
 
