@@ -66,64 +66,64 @@ function fetchMovies() {
 fetchMovies();
 
 // TRAILERS ===================================================================================
-var trailersList = document.getElementById("trailersList");
+// var trailersList = document.getElementById("trailersList");
 
-if (trailersList !== null) {
-    var database = trailersList.getAttribute("dataType");
-}
+// if (trailersList !== null) {
+//     var database = trailersList.getAttribute("dataType");
+// }
 
-function getData(database) {
-    var xhttp = new XMLHttpRequest();
+// function getData(database) {
+//     var xhttp = new XMLHttpRequest();
 
-    xhttp.onreadystatechange = function () {
-        if (this.readyState == 4 && this.status == 200) {
-            var data = JSON.parse(xhttp.responseText);
+//     xhttp.onreadystatechange = function () {
+//         if (this.readyState == 4 && this.status == 200) {
+//             var data = JSON.parse(xhttp.responseText);
 
-            data.trailers.forEach(function (obj) {
-                if (obj.image.includes("http")) {
-                    if (!trailersList.innerHTML.includes(obj.title)) {
-                        var trailerCard = document.createElement("article");
-                        trailerCard.className = "trailer-card";
-                        trailerCard.onclick = function () {
-                            playVideo(obj.video_url.replace("https://www.youtube.com/watch?v=", ""));
-                        };
+//             data.trailers.forEach(function (obj) {
+//                 if (obj.image.includes("http")) {
+//                     if (!trailersList.innerHTML.includes(obj.title)) {
+//                         var trailerCard = document.createElement("article");
+//                         trailerCard.className = "trailer-card";
+//                         trailerCard.onclick = function () {
+//                             playVideo(obj.video_url.replace("https://www.youtube.com/watch?v=", ""));
+//                         };
 
-                        var cardTrailer = document.createElement("article");
-                        cardTrailer.className = "card-trailer";
+//                         var cardTrailer = document.createElement("article");
+//                         cardTrailer.className = "card-trailer";
 
-                        var cardPlay = document.createElement("img");
-                        cardPlay.className = "trailer-play";
-                        cardPlay.src = "https://greatermovies.com/static/play.png";
-                        cardPlay.alt = "play";
+//                         var cardPlay = document.createElement("img");
+//                         cardPlay.className = "trailer-play";
+//                         cardPlay.src = "https://greatermovies.com/static/play.png";
+//                         cardPlay.alt = "play";
 
-                        var cardPoster = document.createElement("img");
-                        cardPoster.title = obj.title;
-                        cardPoster.alt = obj.title;
-                        cardPoster.src = obj.image;
+//                         var cardPoster = document.createElement("img");
+//                         cardPoster.title = obj.title;
+//                         cardPoster.alt = obj.title;
+//                         cardPoster.src = obj.image;
 
-                        var cardTitle = document.createElement("h2");
-                        cardTitle.innerText = obj.title;
+//                         var cardTitle = document.createElement("h2");
+//                         cardTitle.innerText = obj.title;
 
-                        cardTrailer.appendChild(cardPlay);
-                        cardTrailer.appendChild(cardPoster);
-                        cardTrailer.appendChild(cardTitle);
+//                         cardTrailer.appendChild(cardPlay);
+//                         cardTrailer.appendChild(cardPoster);
+//                         cardTrailer.appendChild(cardTitle);
 
-                        trailerCard.appendChild(cardTrailer);
+//                         trailerCard.appendChild(cardTrailer);
 
-                        trailersList.appendChild(trailerCard);
-                    }
-                }
-            });
-        }
-    };
+//                         trailersList.appendChild(trailerCard);
+//                     }
+//                 }
+//             });
+//         }
+//     };
 
-    xhttp.open("GET", 'https://greatermovies.com/trailers/data/' + database + '.json', true);
-    xhttp.send();
-}
+//     xhttp.open("GET", 'https://greatermovies.com/trailers/data/' + database + '.json', true);
+//     xhttp.send();
+// }
 
-if (database !== undefined) {
-    getData(database);
-}
+// if (database !== undefined) {
+//     getData(database);
+// }
 
 // Notifications ==========================================================================
 var OneSignal = window.OneSignal || [];
