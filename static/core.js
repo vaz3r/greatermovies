@@ -38,10 +38,13 @@ function fetchMovies() {
                     var json = JSON.parse(httpClient.responseText);
                     var index = 1;
                     var obj;
-                    for (obj in json.data) {
+
+                    for (var i = 0; i <= len(json.data); i++) {
+                        var obj = json.data[i];
+
                         console.log(obj);
                         if (!cards.innerHTML.includes(obj.title)) {
-                            if (index >= 50) {
+                            if (i >= 50) {
                                 break;
                             }
 
@@ -56,8 +59,6 @@ function fetchMovies() {
                             card_template += card_template.replace("{#TRAILER}", obj.video_url.replace("https://www.youtube.com/watch?v=", ""));
 
                             cards.innerHTML += card_template;
-
-                            index += 1;
                         }
                     }
 
