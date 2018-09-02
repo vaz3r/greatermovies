@@ -1,0 +1,795 @@
+{
+    "data": [{
+        "movie_id": "tt0468569",
+        "title": "The Dark Knight\u00a0(2008)",
+        "time": "2h 32min ",
+        "rating": "9.0/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham. The Dark Knight must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+        "video_url": "https://www.youtube.com/watch?v=EXeTwQWrcwY"
+    }, {
+        "movie_id": "tt4154756",
+        "title": "Avengers: Infinity War\u00a0(2018)",
+        "time": "2h 29min ",
+        "rating": "8.6/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.",
+        "video_url": "https://www.youtube.com/watch?v=QwievZ1Tx-8"
+    }, {
+        "movie_id": "tt7014006",
+        "title": "Eighth Grade\u00a0(2018)",
+        "time": "1h 33min ",
+        "rating": "8.3/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BMzVlYzgxYjAtYzhhZi00MDc1LTlkZDMtMTRhZWI0MTg5YTRjXkEyXkFqcGdeQXVyNTAzMTY4MDA@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "An introverted teenage girl tries to survive the last week of her disastrous eighth grade year before leaving to start high school.",
+        "video_url": "https://www.youtube.com/watch?v=y8lFgF_IjPw"
+    }, {
+        "movie_id": "tt5027774",
+        "title": "Three Billboards Outside Ebbing, Missouri\u00a0(2017)",
+        "time": "1h 55min ",
+        "rating": "8.2/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BMjMxNzgwMDUyMl5BMl5BanBnXkFtZTgwMTQ0NTIyNDM@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "A mother personally challenges the local authorities to solve her daughter's murder when they fail to catch the culprit.",
+        "video_url": "https://www.youtube.com/watch?v=Jit3YhGx5pU"
+    }, {
+        "movie_id": "tt4912910",
+        "title": "Mission: Impossible - Fallout\u00a0(2018)",
+        "time": "2h 27min ",
+        "rating": "8.1/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTk3NDY5MTU0NV5BMl5BanBnXkFtZTgwNDI3MDE1NTM@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "Ethan Hunt and his IMF team, along with some familiar allies, race against time after a mission gone wrong.",
+        "video_url": "https://www.youtube.com/watch?v=wb49-oV0F78"
+    }, {
+        "movie_id": "tt3606756",
+        "title": "Incredibles 2\u00a0(2018)",
+        "time": "1h 58min ",
+        "rating": "8.1/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTEzNzY0OTg0NTdeQTJeQWpwZ15BbWU4MDU3OTg3MjUz._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "Bob Parr (Mr. Incredible) is left to care for the kids while Helen (Elastigirl) is out saving the world.",
+        "video_url": "https://www.youtube.com/watch?v=o-1EkVDiJRc"
+    }, {
+        "movie_id": "tt1856101",
+        "title": "Blade Runner 2049\u00a0(2017)",
+        "time": "2h 44min ",
+        "rating": "8.1/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BNzA1Njg4NzYxOV5BMl5BanBnXkFtZTgwODk5NjU3MzI@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "A young blade runner's discovery of a long-buried secret leads him to track down former blade runner Rick Deckard, who's been missing for thirty years.",
+        "video_url": "https://www.youtube.com/watch?v=gCcx85zbxz4"
+    }, {
+        "movie_id": "tt1431045",
+        "title": "Deadpool\u00a0(2016)",
+        "time": "1h 48min ",
+        "rating": "8.0/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BYzE5MjY1ZDgtMTkyNC00MTMyLThhMjAtZGI5OTE1NzFlZGJjXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "A fast-talking mercenary with a morbid sense of humor is subjected to a rogue experiment that leaves him with accelerated healing powers and a quest for revenge.",
+        "video_url": "https://www.youtube.com/watch?v=Xithigfg7dA"
+    }, {
+        "movie_id": "tt5463162",
+        "title": "Deadpool 2\u00a0(2018)",
+        "time": "1h 59min ",
+        "rating": "7.9/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BNjk1Njk3YjctMmMyYS00Y2I4LThhMzktN2U0MTMyZTFlYWQ5XkEyXkFqcGdeQXVyODM2ODEzMDA@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "Foul-mouthed mutant mercenary Wade Wilson (AKA. Deadpool), brings together a team of fellow mutant rogues to protect a young boy with supernatural abilities from the brutal, time-traveling cyborg, Cable.",
+        "video_url": "https://www.youtube.com/watch?v=D86RtevtfrA"
+    }, {
+        "movie_id": "tt7349662",
+        "title": "BlacKkKlansman\u00a0(2018)",
+        "time": "2h 15min ",
+        "rating": "7.9/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BMjUyOTE1NjI0OF5BMl5BanBnXkFtZTgwMTM4ODQ5NTM@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "Ron Stallworth, an African-American police officer from Colorado, successfully manages to infiltrate the local Ku Klux Klan with the help of a white surrogate, who eventually becomes head of the local branch.",
+        "video_url": "https://www.youtube.com/watch?v=pFc6I0rgmgY"
+    }, {
+        "movie_id": "tt3501632",
+        "title": "Thor: Ragnarok\u00a0(2017)",
+        "time": "2h 10min ",
+        "rating": "7.9/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BMjMyNDkzMzI1OF5BMl5BanBnXkFtZTgwODcxODg5MjI@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "Thor is imprisoned on the planet Sakaar, and must race against time to return to Asgard and stop Ragnar\u00f6k, the destruction of his world, at the hands of the powerful and ruthless villain Hela.",
+        "video_url": "https://www.youtube.com/watch?v=ue80QwXMRHg"
+    }, {
+        "movie_id": "tt4575576",
+        "title": "Christopher Robin\u00a0(2018)",
+        "time": "1h 44min ",
+        "rating": "7.8/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BMjAzOTM2OTAyNF5BMl5BanBnXkFtZTgwNTg5ODg1NTM@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "A working-class family man, Christopher Robin, encounters his childhood friend Winnie-the-Pooh, who helps him to rediscover the joys of life.",
+        "video_url": "https://www.youtube.com/watch?v=0URpDxIjZrQ"
+    }, {
+        "movie_id": "tt7668870",
+        "title": "Searching\u00a0(2018)",
+        "time": "1h 42min ",
+        "rating": "7.8/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTgwODQ1MjQ1Ml5BMl5BanBnXkFtZTgwMzYwMDQ3NTM@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "After his 16-year-old daughter goes missing, a desperate father breaks into her laptop to look for clues to find her.",
+        "video_url": "https://www.youtube.com/watch?v=2iULdbcMqC8"
+    }, {
+        "movie_id": "tt6644200",
+        "title": "A Quiet Place\u00a0(2018)",
+        "time": "1h 30min ",
+        "rating": "7.7/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BMjI0MDMzNTQ0M15BMl5BanBnXkFtZTgwMTM5NzM3NDM@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "In a post-apocalyptic world, a family is forced to live in silence while hiding from monsters with ultra-sensitive hearing.",
+        "video_url": "https://www.youtube.com/watch?v=WR7cc5t7tv8"
+    }, {
+        "movie_id": "tt1485796",
+        "title": "The Greatest Showman\u00a0(2017)",
+        "time": "1h 45min ",
+        "rating": "7.7/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BMjI1NDYzNzY2Ml5BMl5BanBnXkFtZTgwODQwODczNTM@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "Celebrates the birth of show business, and tells of a visionary who rose from nothing to create a spectacle that became a worldwide sensation.",
+        "video_url": "https://www.youtube.com/watch?v=AXCTMGYUg9A"
+    }, {
+        "movie_id": "tt3896198",
+        "title": "Guardians of the Galaxy Vol. 2\u00a0(2017)",
+        "time": "2h 16min ",
+        "rating": "7.7/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTg2MzI1MTg3OF5BMl5BanBnXkFtZTgwNTU3NDA2MTI@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "The Guardians must fight to keep their newfound family together as they unravel the mystery of Peter Quill's true parentage.",
+        "video_url": "https://www.youtube.com/watch?v=2cv2ueYnKjg"
+    }, {
+        "movie_id": "tt3104988",
+        "title": "Crazy Rich Asians\u00a0(2018)",
+        "time": "2h ",
+        "rating": "7.6/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTYxNDMyOTAxN15BMl5BanBnXkFtZTgwMDg1ODYzNTM@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "This contemporary romantic comedy, based on a global bestseller, follows native New Yorker Rachel Chu to Singapore to meet her boyfriend's family.",
+        "video_url": "https://www.youtube.com/watch?v=ZQ-YX-5bAs0"
+    }, {
+        "movie_id": "tt6499752",
+        "title": "Upgrade\u00a0(2018)",
+        "time": "1h 40min ",
+        "rating": "7.6/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BMjI0NzcyMjM5Ml5BMl5BanBnXkFtZTgwMzk2NzAyNTM@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "Set in the near-future, technology controls nearly all aspects of life. But when Grey, a self-identified technophobe, has his world turned upside down, his only hope for revenge is an experimental computer chip implant called Stem.",
+        "video_url": "https://www.youtube.com/watch?v=-T_GmJKEke0"
+    }, {
+        "movie_id": "tt1677720",
+        "title": "Ready Player One\u00a0(2018)",
+        "time": "2h 20min ",
+        "rating": "7.6/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BY2JiYTNmZTctYTQ1OC00YjU4LWEwMjYtZjkwY2Y5MDI0OTU3XkEyXkFqcGdeQXVyNTI4MzE4MDU@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "When the creator of a virtual reality world called the OASIS dies, he releases a video in which he challenges all OASIS users to find his Easter Egg, which will give the finder his fortune.",
+        "video_url": "https://www.youtube.com/watch?v=cSp1dM2Vj48"
+    }, {
+        "movie_id": "tt0241527",
+        "title": "Harry Potter and the Sorcerer's Stone\u00a0(2001)",
+        "time": "2h 32min ",
+        "rating": "7.6/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BNjQ3NWNlNmQtMTE5ZS00MDdmLTlkZjUtZTBlM2UxMGFiMTU3XkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "An orphaned boy enrolled in a school of wizardry, where he learns the truth about himself, his family and the terrible evil that haunts the magical world.",
+        "video_url": "https://www.youtube.com/watch?v=VyHV0BRtdxo"
+    }, {
+        "movie_id": "tt0409459",
+        "title": "Watchmen\u00a0(2009)",
+        "time": "2h 42min ",
+        "rating": "7.6/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BY2IzNGNiODgtOWYzOS00OTI0LTgxZTUtOTA5OTQ5YmI3NGUzXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "In 1985 where former superheroes exist, the murder of a colleague sends active vigilante Rorschach into his own sprawling investigation, uncovering something that could completely change the course of history as we know it.",
+        "video_url": "https://www.youtube.com/watch?v=wglmbroElU0"
+    }, {
+        "movie_id": "tt3846674",
+        "title": "To All the Boys I've Loved Before\u00a0(2018)",
+        "time": "1h 39min ",
+        "rating": "7.5/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BMjM1NjM4NTA1NV5BMl5BanBnXkFtZTgwNTI5MDMxNjM@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "A teenage girl's secret love letters are exposed and wreak havoc on her love life.",
+        "video_url": "https://www.youtube.com/watch?v=555oiY9RWM4"
+    }, {
+        "movie_id": "tt2250912",
+        "title": "Spider-Man: Homecoming\u00a0(2017)",
+        "time": "2h 13min ",
+        "rating": "7.5/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BNTk4ODQ1MzgzNl5BMl5BanBnXkFtZTgwMTMyMzM4MTI@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "Peter Parker balances his life as an ordinary high school student in Queens with his superhero alter-ego Spider-Man, and finds himself on the trail of a new menace prowling the skies of New York City.",
+        "video_url": "https://www.youtube.com/watch?v=n9DwoQ7HWvI"
+    }, {
+        "movie_id": "tt0103874",
+        "title": "Bram Stoker's Dracula\u00a0(1992)",
+        "time": "2h 8min ",
+        "rating": "7.5/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTYyOTM5NzU3Nl5BMl5BanBnXkFtZTgwOTQxNjAxNzE@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "The centuries old vampire Count Dracula comes to England to seduce his barrister Jonathan Harker's fianc\u00e9e Mina Murray and inflict havoc in the foreign land.",
+        "video_url": "https://www.youtube.com/watch?v=QMvD2Jlyy9U"
+    }, {
+        "movie_id": "tt7784604",
+        "title": "Hereditary\u00a0(2018)",
+        "time": "2h 7min ",
+        "rating": "7.4/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BOTU5MDg3OGItZWQ1Ny00ZGVmLTg2YTUtMzBkYzQ1YWIwZjlhXkEyXkFqcGdeQXVyNTAzMTY4MDA@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "After the family matriarch passes away, a grieving family is haunted by tragic and disturbing occurrences, and begin to unravel dark secrets.",
+        "video_url": "https://www.youtube.com/watch?v=YHxcDbai7aU"
+    }, {
+        "movie_id": "tt5095030",
+        "title": "Ant-Man and the Wasp\u00a0(2018)",
+        "time": "1h 58min ",
+        "rating": "7.4/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BYjcyYTk0N2YtMzc4ZC00Y2E0LWFkNDgtNjE1MzZmMGE1YjY1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "As Scott Lang balances being both a Super Hero and a father, Hope van Dyne and Dr. Hank Pym present an urgent new mission that finds the Ant-Man fighting alongside The Wasp to uncover secrets from their past.",
+        "video_url": "https://www.youtube.com/watch?v=UUkn-enk2RU"
+    }, {
+        "movie_id": "tt1289403",
+        "title": "The Guernsey Literary and Potato Peel Pie Society\u00a0(2018)",
+        "time": "2h 4min ",
+        "rating": "7.4/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BNjIyNzhhMmQtMjNlZS00MGRkLWE0ODgtY2E4MGMzMjk2M2IzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "In the aftermath of World War II, a writer forms an unexpected bond with the residents of Guernsey Island when she decides to write a book about their experiences during the war.",
+        "video_url": "https://www.youtube.com/watch?v=vP9eDmX0ow0"
+    }, {
+        "movie_id": "tt1825683",
+        "title": "Black Panther\u00a0(2018)",
+        "time": "2h 14min ",
+        "rating": "7.4/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTg1MTY2MjYzNV5BMl5BanBnXkFtZTgwMTc4NTMwNDI@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "T'Challa, heir to the hidden but advanced kingdom of Wakanda, must step forward to lead his people into a new future and must confront a challenger from his country's past.",
+        "video_url": "https://www.youtube.com/watch?v=xjDjIWPwcPU"
+    }, {
+        "movie_id": "tt1396484",
+        "title": "It\u00a0(2017)",
+        "time": "2h 15min ",
+        "rating": "7.4/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BZDVkZmI0YzAtNzdjYi00ZjhhLWE1ODEtMWMzMWMzNDA0NmQ4XkEyXkFqcGdeQXVyNzYzODM3Mzg@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "In the summer of 1989, a group of bullied kids band together to destroy a shapeshifting monster, which disguises itself as a clown and preys on the children of Derry, their small Maine town.",
+        "video_url": "https://www.youtube.com/watch?v=FnCdOQsX5kc"
+    }, {
+        "movie_id": "tt4555426",
+        "title": "Darkest Hour\u00a0(2017)",
+        "time": "2h 5min ",
+        "rating": "7.4/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BNTU4MjMwOTgyMV5BMl5BanBnXkFtZTgwODQzNjY2NDM@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "In May 1940, the fate of Western Europe hangs on British Prime Minister Winston Churchill, who must decide whether to negotiate with Adolf Hitler, or fight on knowing that it could mean a humiliating defeat for Britain and its empire.",
+        "video_url": "https://www.youtube.com/watch?v=4pNOCzV5jG0"
+    }, {
+        "movie_id": "tt1034415",
+        "title": "Suspiria\u00a0(2018)",
+        "time": "2h 32min ",
+        "rating": "7.3/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BMjQ2MTIyNjM2MF5BMl5BanBnXkFtZTgwMDE3NDMyNjM@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "A darkness swirls at the center of a world-renowned dance company, one that will engulf the artistic director, an ambitious young dancer, and a grieving psychotherapist. Some will succumb to the nightmare. Others will finally wake up.",
+        "video_url": "https://www.youtube.com/watch?v=BY6QKRl56Ok"
+    }, {
+        "movie_id": "tt5052474",
+        "title": "Sicario: Day of the Soldado\u00a0(2018)",
+        "time": "2h 2min ",
+        "rating": "7.3/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BMjgyOWRhMDctZTZlNC00M2I1LWI0NDQtYzlmODdmYjY2MThiXkEyXkFqcGdeQXVyMzY0MTE3NzU@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "The drug war on the U.S.-Mexico border has escalated as the cartels have begun trafficking terrorists across the US border. To fight the war, federal agent Matt Graver re-teams with the mercurial Alejandro.",
+        "video_url": "https://www.youtube.com/watch?v=sIMChzE_aCo"
+    }, {
+        "movie_id": "tt6911608",
+        "title": "Mamma Mia! Here We Go Again\u00a0(2018)",
+        "time": "1h 54min ",
+        "rating": "7.2/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BMjEwMTM3OTI1NV5BMl5BanBnXkFtZTgwNDk5NTY0NTM@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "Five years after the events of Mamma Mia! (2008), Sophie prepares for the grand reopening of the Hotel Bella Donna as she learns more about her mother's past.",
+        "video_url": "https://www.youtube.com/watch?v=nd4cLL_MP7M"
+    }, {
+        "movie_id": "tt0455944",
+        "title": "The Equalizer\u00a0(2014)",
+        "time": "2h 12min ",
+        "rating": "7.2/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTQ2MzE2NTk0NF5BMl5BanBnXkFtZTgwOTM3NTk1MjE@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "A man believes he has put his mysterious past behind him and has dedicated himself to beginning a new, quiet life. But when he meets a young girl under the control of ultra-violent Russian gangsters, he can't stand idly by - he has to help her.",
+        "video_url": "https://www.youtube.com/watch?v=jAI7rF0eQyQ"
+    }, {
+        "movie_id": "tt5478478",
+        "title": "Hostiles\u00a0(2017)",
+        "time": "2h 14min ",
+        "rating": "7.2/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BNjFhZjM4ZDYtMGRjYi00Yzc2LWExYmEtMDQ3NzA4ODU4YTljXkEyXkFqcGdeQXVyNjkwMzU3NDI@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "In 1892, a legendary Army Captain reluctantly agrees to escort a Cheyenne chief and his family through dangerous territory.",
+        "video_url": "https://www.youtube.com/watch?v=1M5cj4UmscE"
+    }, {
+        "movie_id": "tt2527336",
+        "title": "Star Wars: The Last Jedi\u00a0(2017)",
+        "time": "2h 32min ",
+        "rating": "7.2/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BMjQ1MzcxNjg4N15BMl5BanBnXkFtZTgwNzgwMjY4MzI@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "Rey develops her newly discovered abilities with the guidance of Luke Skywalker, who is unsettled by the strength of her powers. Meanwhile, the Resistance prepares for battle with the First Order.",
+        "video_url": "https://www.youtube.com/watch?v=Q0CbN8sfihY"
+    }, {
+        "movie_id": "tt6212478",
+        "title": "American Animals\u00a0(2018)",
+        "time": "1h 56min ",
+        "rating": "7.1/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BYTc4ZWQyODItMTZjYy00OTVmLWEzMjUtNTlkOTJjMzhiYzAxXkEyXkFqcGdeQXVyODE0MDY3NzY@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "Four young men mistake their lives for a movie and attempt one of the most audacious heists in U.S. history.",
+        "video_url": "https://www.youtube.com/watch?v=yAhruSwum1c"
+    }, {
+        "movie_id": "tt3766354",
+        "title": "The Equalizer 2\u00a0(2018)",
+        "time": "2h 1min ",
+        "rating": "7.0/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTU2OTYzODQyMF5BMl5BanBnXkFtZTgwNjU3Njk5NTM@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "Robert McCall serves an unflinching justice for the exploited and oppressed, but how far will he go when that is someone he loves?",
+        "video_url": "https://www.youtube.com/watch?v=4iqjwoRHAV8"
+    }, {
+        "movie_id": "tt4244998",
+        "title": "Alpha\u00a0(2018)",
+        "time": "1h 36min ",
+        "rating": "7.0/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BODI4OTk1ODY3N15BMl5BanBnXkFtZTgwMDI1MTcwNjM@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "In the prehistoric past, a young man struggles to return home after being separated from his tribe during a buffalo hunt. He finds a similarly lost wolf companion, and starts a friendship that would change humanity.",
+        "video_url": "https://www.youtube.com/watch?v=uIxnTi4GmCo"
+    }, {
+        "movie_id": "tt2283362",
+        "title": "Jumanji: Welcome to the Jungle\u00a0(2017)",
+        "time": "1h 59min ",
+        "rating": "7.0/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BODQ0NDhjYWItYTMxZi00NTk2LWIzNDEtOWZiYWYxZjc2MTgxXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "Four teenagers are sucked into a magical video game, and the only way they can escape is to work together to finish the game.",
+        "video_url": "https://www.youtube.com/watch?v=2QKg5SZ_35I"
+    }, {
+        "movie_id": "tt1259528",
+        "title": "Den of Thieves\u00a0(2018)",
+        "time": "2h 20min ",
+        "rating": "7.0/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BMzYyODcwMDAyM15BMl5BanBnXkFtZTgwOTA4MjIwNDI@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "A gritty crime saga which follows the lives of an elite unit of the LA County Sheriff's Dept. and the state's most successful bank robbery crew as the outlaws plan a seemingly impossible heist on the Federal Reserve Bank.",
+        "video_url": "https://www.youtube.com/watch?v=FKd_ks0rdAM"
+    }, {
+        "movie_id": "tt2704998",
+        "title": "Game Night\u00a0(2018)",
+        "time": "1h 40min ",
+        "rating": "7.0/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BMjQxMDE5NDg0NV5BMl5BanBnXkFtZTgwNTA5MDE2NDM@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "A group of friends who meet regularly for game nights find themselves entangled in a real-life mystery when the shady brother of one of them is seemingly kidnapped by dangerous gangsters.",
+        "video_url": "https://www.youtube.com/watch?v=qmxMAdV6s4U"
+    }, {
+        "movie_id": "tt2798920",
+        "title": "Annihilation\u00a0(2018)",
+        "time": "1h 55min ",
+        "rating": "6.9/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTk2Mjc2NzYxNl5BMl5BanBnXkFtZTgwMTA2OTA1NDM@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "A biologist signs up for a dangerous, secret expedition into a mysterious zone where the laws of nature don't apply.",
+        "video_url": "https://www.youtube.com/watch?v=89OP78l9oF0"
+    }, {
+        "movie_id": "tt5093026",
+        "title": "Papillon\u00a0(2017)",
+        "time": "2h 13min ",
+        "rating": "6.8/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTY4MDExNDgzN15BMl5BanBnXkFtZTgwMTU1MzMxNjM@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "Wrongfully convicted for murder, Henri Charriere forms an unlikely relationship with fellow inmate and quirky convicted counterfeiter Louis Dega, in an attempt to escape from the notorious penal colony on Devil's Island.",
+        "video_url": "https://www.youtube.com/watch?v=xqj7XOv9mC8"
+    }, {
+        "movie_id": "tt4649466",
+        "title": "Kingsman: The Golden Circle\u00a0(2017)",
+        "time": "2h 21min ",
+        "rating": "6.8/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BMjQ3OTgzMzY4NF5BMl5BanBnXkFtZTgwOTc4OTQyMzI@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "When their headquarters are destroyed and the world is held hostage, the Kingsman's journey leads them to the discovery of an allied spy organization in the United States. These two elite secret organizations must band together to defeat a common enemy.",
+        "video_url": "https://www.youtube.com/watch?v=6Nxc-3WpMbg"
+    }, {
+        "movie_id": "tt5774450",
+        "title": "Summer of 84\u00a0(2018)",
+        "time": "1h 45min ",
+        "rating": "6.7/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTJhMmQyZDAtZTg3Mi00NzQwLWJkZWEtNzE5MTZhMzIyYTM2XkEyXkFqcGdeQXVyMzQwMTY2Nzk@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "After suspecting that their police officer neighbor is a serial killer, a group of teenage friends spend their summer spying on him and gathering evidence, but as they get closer to discovering the truth, things get dangerous.",
+        "video_url": "https://www.youtube.com/watch?v=Lxj0mgS3fRg"
+    }, {
+        "movie_id": "tt5208252",
+        "title": "Operation Finale\u00a0(2018)",
+        "time": "2h 2min ",
+        "rating": "6.7/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BYzE1YjI2MjctZTY2Zi00NDBhLWIzYmMtNzMzMDgwZjE4MzUxXkEyXkFqcGdeQXVyNTI4MzE4MDU@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "A team of secret agents set out to track down the Nazi officer who masterminded the Holocaust.",
+        "video_url": "https://www.youtube.com/watch?v=iGBNA7l9K8E"
+    }, {
+        "movie_id": "tt2854926",
+        "title": "Tag\u00a0(2018)",
+        "time": "1h 40min ",
+        "rating": "6.6/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BNzk4NDM3NjkwNF5BMl5BanBnXkFtZTgwNTk5MzkzNTM@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "A small group of former classmates organize an elaborate, annual game of tag that requires some to travel all over the country.",
+        "video_url": "https://www.youtube.com/watch?v=9rQu77pgnpg"
+    }, {
+        "movie_id": "tt6306064",
+        "title": "Adrift\u00a0(2018)",
+        "time": "1h 36min ",
+        "rating": "6.6/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTkxMTI2MjE4OF5BMl5BanBnXkFtZTgwMjIyODQzNTM@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "A true story of survival, as a young couple's chance encounter leads them first to love, and then on the adventure of a lifetime as they face one of the most catastrophic hurricanes in recorded history.",
+        "video_url": "https://www.youtube.com/watch?v=If2lCD0SQrE"
+    }, {
+        "movie_id": "tt0974015",
+        "title": "Justice League\u00a0(2017)",
+        "time": "2h ",
+        "rating": "6.6/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BYWVhZjZkYTItOGIwYS00NmRkLWJlYjctMWM0ZjFmMDU4ZjEzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "Fueled by his restored faith in humanity and inspired by Superman's selfless act, Bruce Wayne enlists the help of his newfound ally, Diana Prince, to face an even greater enemy.",
+        "video_url": "https://www.youtube.com/watch?v=r9-DM9uBtVI"
+    }, {
+        "movie_id": "tt2873282",
+        "title": "Red Sparrow\u00a0(2018)",
+        "time": "2h 20min ",
+        "rating": "6.6/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTA3MDkxOTc4NDdeQTJeQWpwZ15BbWU4MDAxNzgyNTQz._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "Ballerina Dominika Egorova is recruited to 'Sparrow School,' a Russian intelligence service where she is forced to use her body as a weapon. Her first mission, targeting a C.I.A. agent, threatens to unravel the security of both nations.",
+        "video_url": "https://www.youtube.com/watch?v=Q3m155Oj-V0"
+    }, {
+        "movie_id": "tt5117670",
+        "title": "Peter Rabbit\u00a0(2018)",
+        "time": "1h 35min ",
+        "rating": "6.6/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BMzI5MzZmZjItOGQzZC00NjNiLWFjMjQtMGNhY2NmNDMyNGM1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "Feature adaptation of Beatrix Potter's classic tale of a rebellious rabbit trying to sneak into a farmer's vegetable garden.",
+        "video_url": "https://www.youtube.com/watch?v=c3ZlyIh9QZw"
+    }, {
+        "movie_id": "tt0368774",
+        "title": "The Heart Is Deceitful Above All Things\u00a0(2004)",
+        "time": "1h 37min ",
+        "rating": "6.5/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BZDE1MTA1ODAtZTgxOS00YjkyLTg5M2UtNTYxYmQ5MGU1NWNjXkEyXkFqcGdeQXVyNDkzNTM2ODg@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "Seven-year-old Jeremiah is pulled from his foster home and thrown into a troubled life on the road with his teenage mother, Sarah.",
+        "video_url": "https://www.youtube.com/watch?v=FhbPeX98Qkk"
+    }, {
+        "movie_id": "tt3402236",
+        "title": "Murder on the Orient Express\u00a0(2017)",
+        "time": "1h 54min ",
+        "rating": "6.5/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTAxNDkxODIyMDZeQTJeQWpwZ15BbWU4MDQ2Mjg4NDIy._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "When a murder occurs on the train he's travelling on, celebrated detective Hercule Poirot is recruited to solve the case.",
+        "video_url": "https://www.youtube.com/watch?v=Mq4m3yAoW8E"
+    }, {
+        "movie_id": "tt4881806",
+        "title": "Jurassic World: Fallen Kingdom\u00a0(2018)",
+        "time": "2h 8min ",
+        "rating": "6.4/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BNzIxMjYwNDEwN15BMl5BanBnXkFtZTgwMzk5MDI3NTM@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "When the island's dormant volcano begins roaring to life, Owen and Claire mount a campaign to rescue the remaining dinosaurs from this extinction-level event.",
+        "video_url": "https://www.youtube.com/watch?v=vn9mMeWcgoM"
+    }, {
+        "movie_id": "tt6663582",
+        "title": "The Spy Who Dumped Me\u00a0(2018)",
+        "time": "1h 57min ",
+        "rating": "6.4/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BNDY1MTA0NjgyN15BMl5BanBnXkFtZTgwMTEzNDQ4NTM@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "Audrey and Morgan are best friends who unwittingly become entangled in an international conspiracy when one of the women discovers the boyfriend who dumped her was actually a spy.",
+        "video_url": "https://www.youtube.com/watch?v=CXkUaaVrB_s"
+    }, {
+        "movie_id": "tt1365519",
+        "title": "Tomb Raider\u00a0(2018)",
+        "time": "1h 58min ",
+        "rating": "6.4/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BOTY4NDcyZGQtYmVlNy00ODgwLTljYTMtYzQ2OTE3NDhjODMwXkEyXkFqcGdeQXVyNzYzODM3Mzg@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "Lara Croft, the fiercely independent daughter of a missing adventurer, must push herself beyond her limits when she discovers the island where her father disappeared.",
+        "video_url": "https://www.youtube.com/watch?v=rOEHpkZCc1Y"
+    }, {
+        "movie_id": "tt5164214",
+        "title": "Ocean's Eight\u00a0(2018)",
+        "time": "1h 50min ",
+        "rating": "6.3/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BMjAyNDEyMzc4Ml5BMl5BanBnXkFtZTgwMjEzNjM0NTM@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "Debbie Ocean gathers an all-female crew to attempt an impossible heist at New York City's yearly Met Gala.",
+        "video_url": "https://www.youtube.com/watch?v=5mXY0yWxZOM"
+    }, {
+        "movie_id": "tt3799232",
+        "title": "The Kissing Booth\u00a0(2018)",
+        "time": "1h 45min ",
+        "rating": "6.3/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BNjQ0Mzk0OTE5MF5BMl5BanBnXkFtZTgwNDkyOTI0NTM@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "A high school student is forced to confront her secret crush at a kissing booth.",
+        "video_url": "https://www.youtube.com/watch?v=7bfS6seiLhk"
+    }, {
+        "movie_id": "tt3203528",
+        "title": "Bad Samaritan\u00a0(2018)",
+        "time": "1h 50min ",
+        "rating": "6.3/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BNTk3NWI3NTktMjBkYi00OGJlLWE1MmItNjlkZTExMTZmZDdhXkEyXkFqcGdeQXVyMjU4ODU0MzU@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "A pair of burglars stumble upon a woman being held captive in a home they intended to rob.",
+        "video_url": "https://www.youtube.com/watch?v=yyuRdsik_P0"
+    }, {
+        "movie_id": "tt2531344",
+        "title": "Blockers\u00a0(2018)",
+        "time": "1h 42min ",
+        "rating": "6.3/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BMjE0ODIzNjkzMl5BMl5BanBnXkFtZTgwODQ3MzU4NDM@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "Three parents try to stop their daughters from losing their virginity on prom night.",
+        "video_url": "https://www.youtube.com/watch?v=uMDVa4yoCWw"
+    }, {
+        "movie_id": "tt2231461",
+        "title": "Rampage\u00a0(2018)",
+        "time": "1h 47min ",
+        "rating": "6.2/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BNDA1NjA3ODU3OV5BMl5BanBnXkFtZTgwOTg3MTIwNTM@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "When three different animals become infected with a dangerous pathogen, a primatologist and a geneticist team up to stop them from destroying Chicago.",
+        "video_url": "https://www.youtube.com/watch?v=SaZNFH4OORg"
+    }, {
+        "movie_id": "tt4779682",
+        "title": "The Meg\u00a0(2018)",
+        "time": "1h 53min ",
+        "rating": "6.1/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BMjg0MzA4MDE0N15BMl5BanBnXkFtZTgwMzk3MzAwNjM@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "After escaping an attack by what he claims was a 70-foot shark, Jonas Taylor must confront his fears to save those trapped in a sunken submersible.",
+        "video_url": "https://www.youtube.com/watch?v=udm5jUA-2bs"
+    }, {
+        "movie_id": "tt4560436",
+        "title": "Mile 22\u00a0(2018)",
+        "time": "1h 34min ",
+        "rating": "6.1/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BNzUyODk4OTkxNF5BMl5BanBnXkFtZTgwMzY0MDgzNTM@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "An elite American intelligence officer, aided by a top-secret tactical command unit, tries to smuggle a mysterious police officer with sensitive information out of the country.",
+        "video_url": "https://www.youtube.com/watch?v=eJU6S5KOsNI"
+    }, {
+        "movie_id": "tt6857166",
+        "title": "Book Club\u00a0(2018)",
+        "time": "1h 44min ",
+        "rating": "6.1/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTc0MDY2MDI3Ml5BMl5BanBnXkFtZTgwNjU2MzIyNTM@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "Four lifelong friends have their lives forever changed after reading 50 Shades of Grey in their monthly book club.",
+        "video_url": "https://www.youtube.com/watch?v=LDxgPIsv6sY"
+    }, {
+        "movie_id": "tt7170950",
+        "title": "Like Father\u00a0(2018)",
+        "time": "1h 38min ",
+        "rating": "6.1/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTY1NDc3MzgxNV5BMl5BanBnXkFtZTgwNDc3MTQwNjM@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "A workaholic woman who is left at the altar takes her honeymoon trip anyway, joined by her overachieving father, who left her mother because he believed his family was holding back his ... See full summary\u00a0\u00bb",
+        "video_url": "https://www.youtube.com/watch?v=_bfqsNh6U7c"
+    }, {
+        "movie_id": "tt5758778",
+        "title": "Skyscraper\u00a0(2018)",
+        "time": "1h 42min ",
+        "rating": "6.0/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BOGM3MzQwYzItNDA1Ny00MzIyLTg5Y2QtYTAwMzNmMDU2ZDgxXkEyXkFqcGdeQXVyMjMxOTE0ODA@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "A security expert must infiltrate a burning skyscraper, 225 stories above ground, when his family are trapped inside by criminals.",
+        "video_url": "https://www.youtube.com/watch?v=t9QePUT-Yt8"
+    }, {
+        "movie_id": "tt1563742",
+        "title": "Overboard\u00a0(2018)",
+        "time": "1h 52min ",
+        "rating": "5.9/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BM2E5MWYwYTktMmIxZC00MWVkLTk4YjctNGU1OGVjMDIwNzM2XkEyXkFqcGdeQXVyNTAwODk1NzY@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "A spoiled, wealthy yacht owner is thrown overboard and becomes the target of revenge from his mistreated employee.",
+        "video_url": "https://www.youtube.com/watch?v=OLAJ0ooorDU"
+    }, {
+        "movie_id": "tt3201640",
+        "title": "Extinction\u00a0(2018)",
+        "time": "1h 35min ",
+        "rating": "5.8/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTU5OTYzMzcwOF5BMl5BanBnXkFtZTgwNTkzMzk4NTM@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "A father has a recurring dream of losing his family. His nightmare turns into reality when the planet is invaded by a force bent on destruction. Fighting for their lives, he comes to realize an unknown strength to keep them safe from harm.",
+        "video_url": "https://www.youtube.com/watch?v=-ePDPGXkvlw"
+    }, {
+        "movie_id": "tt2140629",
+        "title": "Arizona\u00a0(2018)",
+        "time": "1h 25min ",
+        "rating": "5.7/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTRkNjQyMWEtN2YwYy00MzVkLWEyMTEtN2Y3MWZiOGFkZWY2XkEyXkFqcGdeQXVyMzQwMTY2Nzk@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "Set in the midst of the 2009 housing crisis, this darkly comedic story follows Cassie Fowler, a single mom and struggling realtor whose life goes off the rails when she witnesses a murder.",
+        "video_url": "https://www.youtube.com/watch?v=DkE_tudEnkY"
+    }, {
+        "movie_id": "tt5179598",
+        "title": "Billionaire Boys Club\u00a0(2018)",
+        "time": "1h 48min ",
+        "rating": "5.6/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BZDAxZTE2MzgtZjNjYi00YjE4LWIzNzYtNTQyZWRhMWVhMTc2XkEyXkFqcGdeQXVyNTUzOTUwMTk@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "A group of wealthy boys in Los Angeles during the early 1980s establish a 'get-rich-quick' scam that turns deadly.",
+        "video_url": "https://www.youtube.com/watch?v=XkdZzOM2VGA"
+    }, {
+        "movie_id": "tt7525778",
+        "title": "The Package\u00a0(2018)",
+        "time": "1h 34min ",
+        "rating": "5.5/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BYmNjY2RhMTUtNTQ1Mi00NmJmLTk4Y2QtYzA1YmM1ZDNiNGRkXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "When a group of teenage friends go on a spring break camping trip, an unfortunate accident sets off a race against time to save their friend's most prized possession.",
+        "video_url": "https://www.youtube.com/watch?v=FA_K9QPuKuM"
+    }, {
+        "movie_id": "tt4073790",
+        "title": "The Darkest Minds\u00a0(2018)",
+        "time": "1h 44min ",
+        "rating": "5.5/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTUxOGE3OTUtM2I2My00YzE3LTg2NDktZTI3NjE4NDdjMGFiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "Imprisoned by an adult world that now fears everyone under 18, a group of teens form a resistance group to fight back and reclaim control of their future.",
+        "video_url": "https://www.youtube.com/watch?v=tN8o_E_f9FQ"
+    }, {
+        "movie_id": "tt5619332",
+        "title": "Life of the Party\u00a0(2018)",
+        "time": "1h 45min ",
+        "rating": "5.5/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTkzOTk0MjYwM15BMl5BanBnXkFtZTgwNTE5ODQxNTM@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "After her husband abruptly asks for a divorce, a middle-aged mother returns to college in order to complete her degree.",
+        "video_url": "https://www.youtube.com/watch?v=T1B1CxmAXLk"
+    }, {
+        "movie_id": "tt1308728",
+        "title": "The Happytime Murders\u00a0(2018)",
+        "time": "1h 31min ",
+        "rating": "5.2/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BOTRjMTczMGItMmYxMi00ZThlLTg2ZjAtODgyZTNkN2VmMDlhXkEyXkFqcGdeQXVyNzQwNjY4NTg@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "When the puppet cast of an '90s children's TV show begin to get murdered one by one, a disgraced LAPD detective-turned-private eye puppet takes on the case.",
+        "video_url": "https://www.youtube.com/watch?v=-eks8LG72uo"
+    }, {
+        "movie_id": "tt2372251",
+        "title": "Down a Dark Hall\u00a0(2018)",
+        "time": "1h 36min ",
+        "rating": "5.2/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTY4ODg5MjMwNl5BMl5BanBnXkFtZTgwMDgyNzY1NTM@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "Kit Gordy, a new student at the exclusive Blackwood Boarding School, confronts the institution's supernatural occurrences and dark powers of its headmistress.",
+        "video_url": "https://www.youtube.com/watch?v=TwHoY2dVZLE"
+    }, {
+        "movie_id": "tt5709188",
+        "title": "A-X-L\u00a0(2018)",
+        "time": "1h 40min ",
+        "rating": "5.1/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BMzhmMWY5YzYtNGU0OS00OWExLWE4MTEtZjdmZTczNGEwNjhmXkEyXkFqcGdeQXVyMjM4NTM5NDY@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "A.X.L. is a top-secret, robotic dog who develops a special friendship with Miles and will go to any length to protect his new companion.",
+        "video_url": "https://www.youtube.com/watch?v=Eix-Ujvko-0"
+    }, {
+        "movie_id": "tt6495770",
+        "title": "Action Point\u00a0(2018)",
+        "time": "1h 25min ",
+        "rating": "5.0/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BMjEyMTU5MTk1N15BMl5BanBnXkFtZTgwMzIzMzczNTM@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "A daredevil designs and operates his own theme park with his friends.",
+        "video_url": "https://www.youtube.com/watch?v=ri1Cc3Yz09U"
+    }, {
+        "movie_id": "tt5246700",
+        "title": "How It Ends\u00a0(2018)",
+        "time": "1h 53min ",
+        "rating": "5.0/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BMjMwOTg0MzU4MV5BMl5BanBnXkFtZTgwODk2NjY3NTM@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "A desperate man tries to return home to his pregnant fianc\u00e9e after a mysterious apocalyptic event turns everything to chaos.",
+        "video_url": "https://www.youtube.com/watch?v=WJyyJ7lexnM"
+    }, {
+        "movie_id": "tt5723416",
+        "title": "The Beyond\u00a0(2017)",
+        "time": "1h 43min ",
+        "rating": "4.8/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BMDgwYzQyYTItNmE0Mi00NzYyLWI0ZTUtZmMzYTdjNmFmNzZmXkEyXkFqcGdeQXVyMjc0NjcyNDM@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "Set in 2019, The Beyond chronicles the groundbreaking mission which sent astronauts - modified with advanced robotics, through a newly discovered worm hole known as the Void. When the ... See full summary\u00a0\u00bb",
+        "video_url": "https://www.youtube.com/watch?v=xQE7NGkJZHs"
+    }, {
+        "movie_id": "tt5493944",
+        "title": "The Little Mermaid\u00a0(2018)",
+        "time": "1h 25min ",
+        "rating": "4.4/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BNjhiYzE5YjctZTg4ZS00OWEwLWIyZGItMjZjNWVjODZmNDBkXkEyXkFqcGdeQXVyNjQ3NTcyNzQ@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "A young reporter and his niece discover a beautiful and enchanting creature they believe to be the real little mermaid.",
+        "video_url": "https://www.youtube.com/watch?v=dSYzxH00awE"
+    }, {
+        "movie_id": "tt3458254",
+        "title": "Patient Zero\u00a0(2018)",
+        "time": "1h 33min ",
+        "rating": "4.3/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BMjQ0Njc1OTczMl5BMl5BanBnXkFtZTgwMDM0MzY5NTM@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "After an unprecedented global pandemic turns the majority of humankind into violent \"Infected,\" a man gifted with the ability to speak the Infected's new language leads the last survivors on a hunt for Patient Zero and a cure.",
+        "video_url": "https://www.youtube.com/watch?v=Ab6rslFsr_M"
+    }, {
+        "movie_id": "tt5690360",
+        "title": "Slender Man\u00a0(2018)",
+        "time": "1h 33min ",
+        "rating": "3.0/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BMjE0MzcwMDAyNl5BMl5BanBnXkFtZTgwMzc4ODg0NDM@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "In a small town in Massachusetts, a group of friends, fascinated by the internet lore of the Slender Man, attempt to prove that he doesn't actually exist - until one of them mysteriously goes missing.",
+        "video_url": "https://www.youtube.com/watch?v=nxgSXM8NUls"
+    }, {
+        "movie_id": "tt5361326",
+        "title": "The Ninth Passenger\u00a0(2018)",
+        "time": "1h 33min ",
+        "rating": "3.0/10",
+        "image": "https://m.media-amazon.com/images/M/MV5BNTZkZDVlNzMtMWExYi00ODZlLThhZjUtOGQ0MzA4OTZjNzA1XkEyXkFqcGdeQXVyOTg4MDYyNw@@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "THE NINTH PASSENGER - A group of salacious students party aboard a luxury yacht only to turn on each other as a 9th PASSENGER picks them off one by one.",
+        "video_url": "https://www.youtube.com/watch?v=fcOMxn9mb4o"
+    }, {
+        "movie_id": "tt3829266",
+        "title": "The Predator\u00a0(2018)",
+        "time": "1h 41min ",
+        "rating": "N/A",
+        "image": "https://m.media-amazon.com/images/M/MV5BMjM5MDk2NDIxMF5BMl5BanBnXkFtZTgwNjU5NDk3NTM@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "When a young boy accidentally triggers the universe's most lethal hunters' return to Earth, only a ragtag crew of ex-soldiers and a disgruntled science teacher can prevent the end of the human race.",
+        "video_url": "https://www.youtube.com/watch?v=AAJ2LVVgqVo"
+    }, {
+        "movie_id": "tt6679794",
+        "title": "Outlaw King\u00a0(2018)",
+        "time": "2h 17min ",
+        "rating": "N/A",
+        "image": "https://m.media-amazon.com/images/M/MV5BMjM1OTE0MDkzNF5BMl5BanBnXkFtZTgwNDU1MjYxNjM@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "A true David v Goliath story of how the great 14th Century Scottish 'Outlaw King' Robert The Bruce used cunning and bravery to defeat and repel the much larger and better equipped occupying English army.",
+        "video_url": "https://www.youtube.com/watch?v=Q-G1BME8FKw"
+    }, {
+        "movie_id": "tt5814060",
+        "title": "The Nun\u00a0(2018)",
+        "time": "1h 36min ",
+        "rating": "N/A",
+        "image": "https://m.media-amazon.com/images/M/MV5BMjM3NzQ5NDcxOF5BMl5BanBnXkFtZTgwNzM4MTQ5NTM@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "A priest with a haunted past and a novice on the threshold of her final vows are sent by the Vatican to investigate the death of a young nun in Romania and confront a malevolent force in the form of a demonic nun.",
+        "video_url": "https://www.youtube.com/watch?v=zwAM5UnGd2s"
+    }, {
+        "movie_id": "tt7131622",
+        "title": "Once Upon a Time in Hollywood\u00a0(2019)",
+        "time": "N/A",
+        "rating": "N/A",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTc3ODIwNzA2NF5BMl5BanBnXkFtZTgwMTUzMjA4NTM@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "A faded TV actor and his stunt double embark on an odyssey to make a name for themselves in the film industry during the Helter Skelter reign of terror in 1969 Los Angeles.",
+        "video_url": "https://www.youtube.com/watch?v=EYAppIWqeSk"
+    }, {
+        "movie_id": "tt5057140",
+        "title": "Hold the Dark\u00a0(2018)",
+        "time": "2h 5min ",
+        "rating": "N/A",
+        "image": "https://m.media-amazon.com/images/M/MV5BMjMwOTQ1MzM3M15BMl5BanBnXkFtZTgwODQyNDQxNjM@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "After the deaths of three children suspected to be by wolves, writer Russell Core is hired by the parents of a missing six-year-old boy to track down and locate their son in the Alaskan wilderness.",
+        "video_url": "https://www.youtube.com/watch?v=OFAwDO6b5KI"
+    }, {
+        "movie_id": "tt4154664",
+        "title": "Captain Marvel\u00a0(2019)",
+        "time": "N/A",
+        "rating": "N/A",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTQ3MjIyMDQxOF5BMl5BanBnXkFtZTgwNDIxNTM2OTE@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "Carol Danvers becomes one of the universe's most powerful heroes when Earth is caught in the middle of a galactic war between two alien races.",
+        "video_url": "https://www.youtube.com/watch?v=5_QPcRWpwvQ"
+    }, {
+        "movie_id": "tt7040874",
+        "title": "A Simple Favor\u00a0(2018)",
+        "time": "1h 57min ",
+        "rating": "N/A",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTkwNTE3MzI1NV5BMl5BanBnXkFtZTgwNjM4OTMxNjM@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "A SIMPLE FAVOR, directed by Paul Feig, centers around Stephanie (Anna Kendrick), a mommy blogger who seeks to uncover the truth behind her best friend Emily's (Blake Lively) sudden disappearance from their small town.",
+        "video_url": "https://www.youtube.com/watch?v=rAqMlh0b2HU"
+    }, {
+        "movie_id": "tt1270797",
+        "title": "Venom\u00a0(2018)",
+        "time": "N/A",
+        "rating": "N/A",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTU3MTQyNjQwM15BMl5BanBnXkFtZTgwNDgxNDczNTM@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "When Eddie Brock acquires the powers of a symbiote, he will have to release his alter-ego \"Venom\" to save his life.",
+        "video_url": "https://www.youtube.com/watch?v=xLCn88bfW1o"
+    }, {
+        "movie_id": "tt1477834",
+        "title": "Aquaman\u00a0(2018)",
+        "time": "N/A",
+        "rating": "N/A",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTA1NDM2ODUxOTNeQTJeQWpwZ15BbWU4MDgxOTEyMDYz._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "Arthur Curry learns that he is the heir to the underwater kingdom of Atlantis, and must step forward to lead his people and be a hero to the world.",
+        "video_url": "https://www.youtube.com/watch?v=VMzYtgzYO7U"
+    }, {
+        "movie_id": "tt7349950",
+        "title": "It: Chapter Two\u00a0(2019)",
+        "time": "N/A",
+        "rating": "N/A",
+        "image": "https://m.media-amazon.com/images/M/MV5BNTFmOTIxMjEtZTk5OC00MzY2LWE5MTQtOWQzYTMwNGE3MGVjXkEyXkFqcGdeQXVyODk1MTM0MjU@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "27 years later, the Losers Club have grown up and moved away, until a devastating phone call brings them back.",
+        "video_url": "https://www.youtube.com/watch?v=U2Aa5BsjfF0"
+    }, {
+        "movie_id": "tt6565702",
+        "title": "X-Men: Dark Phoenix\u00a0(2019)",
+        "time": "N/A",
+        "rating": "N/A",
+        "image": "https://m.media-amazon.com/images/M/MV5BZWUyMWVlMjEtNjRkYS00YjNlLThmODItYzc1MTQ5NzBiOGM2XkEyXkFqcGdeQXVyNjY5NDczMTk@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "Jean Grey begins to develop incredible powers that corrupt and turn her into a Dark Phoenix. Now the X-Men will have to decide if the life of a team member is worth more than all the people living in the world.",
+        "video_url": "https://www.youtube.com/watch?v=XUIRrMRA-7s"
+    }, {
+        "movie_id": "tt4123430",
+        "title": "Fantastic Beasts: The Crimes of Grindelwald\u00a0(2018)",
+        "time": "N/A",
+        "rating": "N/A",
+        "image": "https://m.media-amazon.com/images/M/MV5BNzQwNzI2NzU3Nl5BMl5BanBnXkFtZTgwNDU4NzIwNTM@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "The second installment of the \"Fantastic Beasts\" series set in J.K. Rowling's Wizarding World featuring the adventures of magizoologist Newt Scamander.",
+        "video_url": "https://www.youtube.com/watch?v=1y0hRocB9sM"
+    }, {
+        "movie_id": "tt1502407",
+        "title": "Halloween\u00a0(2018)",
+        "time": "1h 49min ",
+        "rating": "N/A",
+        "image": "https://m.media-amazon.com/images/M/MV5BYzQ2YTk5ZTUtYTE0MC00NzIyLWJlMWMtYzc5YjVhNTdhZDk5XkEyXkFqcGdeQXVyNDg2MjUxNjM@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "Laurie Strode comes to her final confrontation with Michael Myers, the masked figure who has haunted her since she narrowly escaped his killing spree on Halloween night four decades ago.",
+        "video_url": "https://www.youtube.com/watch?v=ek1ePFp-nBI"
+    }, {
+        "movie_id": "tt7461200",
+        "title": "The Oath\u00a0(2018)",
+        "time": "N/A",
+        "rating": "N/A",
+        "image": "https://m.media-amazon.com/images/M/MV5BMjEwOTkzNjMyOV5BMl5BanBnXkFtZTgwODQ0MTIyNjM@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "In a politically divided America, a man struggles to make it through the Thanksgiving holiday without destroying his family.",
+        "video_url": "https://www.youtube.com/watch?v=gqLnWxzNqf8"
+    }, {
+        "movie_id": "tt1727824",
+        "title": "Bohemian Rhapsody\u00a0(2018)",
+        "time": "N/A",
+        "rating": "N/A",
+        "image": "https://m.media-amazon.com/images/M/MV5BNDg2NjIxMDUyNF5BMl5BanBnXkFtZTgwMzEzNTE1NTM@._V1_UY600_CR0,0,0,600_AL_.jpg",
+        "summary": "A chronicle of the years leading up to Queen's legendary appearance at the Live Aid (1985) concert.",
+        "video_url": "https://www.youtube.com/watch?v=mP0VHJYFOAU"
+    }]
+}
