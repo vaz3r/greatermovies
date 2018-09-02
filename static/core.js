@@ -37,7 +37,7 @@ function fetchMovies() {
                 if (this.readyState == 4 && this.status == 200) {
                     var json = JSON.parse(httpClient.responseText);
                     var index = 1;
-                    
+                    var obj;
                     for (obj in json.data) {
                         console.log(obj);
                         if (!cards.innerHTML.includes(obj.title)) {
