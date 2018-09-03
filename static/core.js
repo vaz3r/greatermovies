@@ -37,8 +37,13 @@ function fetchMovies() {
                 if (this.readyState == 4 && this.status == 200) {
                     var json = JSON.parse(httpClient.responseText);
 
-                    for (var i = 0; i <= 10; i++) {
+                    for (var i = 0; i <= json.data.length - 1; i++) {
                         var index = i + 1;
+
+                        if (index == 50) {
+                            break;
+                        }
+
                         var obj = json.data[i];
                         console.log(obj.title);
 
@@ -54,28 +59,6 @@ function fetchMovies() {
 
                         cards.innerHTML += card_template;
                     }
-
-                    // json.data.forEach(function (obj) {
-                    //     if (!cards.innerHTML.includes(obj.title)) {
-                    //         if (index >= 50) {
-                    //             break;
-                    //         }
-
-                    //         var card_template = '<article class="card"> <figure class="card-left"> <img alt="{#TITLE}" src="{#IMAGE}"/> </figure> <article class="card-right"> <h2> <span>#{#INDEX}</span> {#TITLE}</h2> <div class="card-ratings"> <div class="rating"> <span title="IMDb" class="imdb">IMDb</span> <span class="card-score">{#RATING}</span> </div><div class="rating"> <span title="Runtime" class="runtime"> <span class="icon-stopwatch"></span> </span> <span class="card-score">{#TIME}</span> </div></div><article title="{#TITLE} Summary" class="fan-review"> <p>{#SUMMARY}</p></article> <article class="buttons"> <a> <div class="button-trailer" onclick="playVideo(\'{#TRAILER}\');"> <span class="icon-youtube"></span> WATCH TRAILER </div></a> </article> </article> </article>';
-
-                    //         card_template += card_template.replace("{#TITLE}", obj.title);
-                    //         card_template += card_template.replace("{#IMAGE}", obj.image);
-                    //         card_template += card_template.replace("{#INDEX}", index);
-                    //         card_template += card_template.replace("{#RATING}", obj.rating);
-                    //         card_template += card_template.replace("{#TIME}", obj.time);
-                    //         card_template += card_template.replace("{#SUMMARY}", obj.summary);
-                    //         card_template += card_template.replace("{#TRAILER}", obj.video_url.replace("https://www.youtube.com/watch?v=", ""));
-
-                    //         cards.innerHTML += card_template;
-
-                    //         index += 1;
-                    //     }
-                    // });
                 }
             };
 
@@ -88,64 +71,66 @@ function fetchMovies() {
 fetchMovies();
 
 // TRAILERS ===================================================================================
-// var trailersList = document.getElementById("trailersList");
 
-// if (trailersList !== null) {
-//     var database = trailersList.getAttribute("dataType");
-// }
+function fetchTrailers() {
+    var trailersList = document.getElementById("trailersList");
 
-// function getData(database) {
-//     var xhttp = new XMLHttpRequest();
+    if (trailersList !== null) {
+        var database = trailersList.getAttribute("dataType");
 
-//     xhttp.onreadystatechange = function () {
-//         if (this.readyState == 4 && this.status == 200) {
-//             var data = JSON.parse(xhttp.responseText);
+        if (database !== undefined) {
 
-//             data.trailers.forEach(function (obj) {
-//                 if (obj.image.includes("http")) {
-//                     if (!trailersList.innerHTML.includes(obj.title)) {
-//                         var trailerCard = document.createElement("article");
-//                         trailerCard.className = "trailer-card";
-//                         trailerCard.onclick = function () {
-//                             playVideo(obj.video_url.replace("https://www.youtube.com/watch?v=", ""));
-//                         };
+            var xhttp = new XMLHttpRequest();
 
-//                         var cardTrailer = document.createElement("article");
-//                         cardTrailer.className = "card-trailer";
+            xhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    var data = JSON.parse(xhttp.responseText);
 
-//                         var cardPlay = document.createElement("img");
-//                         cardPlay.className = "trailer-play";
-//                         cardPlay.src = "https://greatermovies.com/static/play.png";
-//                         cardPlay.alt = "play";
+                    data.trailers.forEach(function (obj) {
+                        if (obj.image.includes("http")) {
+                            if (!trailersList.innerHTML.includes(obj.title)) {
+                                var trailerCard = document.createElement("article");
+                                trailerCard.className = "trailer-card";
+                                trailerCard.onclick = function () {
+                                    playVideo(obj.video_url.replace("https://www.youtube.com/watch?v=", ""));
+                                };
 
-//                         var cardPoster = document.createElement("img");
-//                         cardPoster.title = obj.title;
-//                         cardPoster.alt = obj.title;
-//                         cardPoster.src = obj.image;
+                                var cardTrailer = document.createElement("article");
+                                cardTrailer.className = "card-trailer";
 
-//                         var cardTitle = document.createElement("h2");
-//                         cardTitle.innerText = obj.title;
+                                var cardPlay = document.createElement("img");
+                                cardPlay.className = "trailer-play";
+                                cardPlay.src = "https://greatermovies.com/static/play.png";
+                                cardPlay.alt = "play";
 
-//                         cardTrailer.appendChild(cardPlay);
-//                         cardTrailer.appendChild(cardPoster);
-//                         cardTrailer.appendChild(cardTitle);
+                                var cardPoster = document.createElement("img");
+                                cardPoster.title = obj.title;
+                                cardPoster.alt = obj.title;
+                                cardPoster.src = obj.image;
 
-//                         trailerCard.appendChild(cardTrailer);
+                                var cardTitle = document.createElement("h2");
+                                cardTitle.innerText = obj.title;
 
-//                         trailersList.appendChild(trailerCard);
-//                     }
-//                 }
-//             });
-//         }
-//     };
+                                cardTrailer.appendChild(cardPlay);
+                                cardTrailer.appendChild(cardPoster);
+                                cardTrailer.appendChild(cardTitle);
 
-//     xhttp.open("GET", 'https://greatermovies.com/trailers/data/' + database + '.json', true);
-//     xhttp.send();
-// }
+                                trailerCard.appendChild(cardTrailer);
 
-// if (database !== undefined) {
-//     getData(database);
-// }
+                                trailersList.appendChild(trailerCard);
+                            }
+                        }
+                    });
+                }
+            };
+
+            xhttp.open("GET", 'https://greatermovies.com/trailers/data/' + database + '.json', true);
+            xhttp.send();
+        }
+    }
+}
+
+fetchTrailers();
 
 // Notifications ==========================================================================
 var OneSignal = window.OneSignal || [];
