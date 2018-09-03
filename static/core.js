@@ -40,12 +40,11 @@ function fetchMovies() {
                     for (var i = 0; i <= json.data.length - 1; i++) {
                         var index = i + 1;
 
-                        if (index == 50) {
+                        if (index >= 50) {
                             break;
                         }
 
                         var obj = json.data[i];
-                        console.log(obj.title);
 
                         var card_template = '<article class="card"> <figure class="card-left"> <img alt="{#TITLE}" src="{#IMAGE}"/> </figure> <article class="card-right"> <h2> <span>#{#INDEX}</span> {#TITLE}</h2> <div class="card-ratings"> <div class="rating"> <span title="IMDb" class="imdb">IMDb</span> <span class="card-score">{#RATING}</span> </div><div class="rating"> <span title="Runtime" class="runtime"> <span class="icon-stopwatch"></span> </span> <span class="card-score">{#TIME}</span> </div></div><article title="{#TITLE} Summary" class="fan-review"> <p>{#SUMMARY}</p></article> <article class="buttons"> <a> <div class="button-trailer" onclick="playVideo(\'{#TRAILER}\');"> <span class="icon-youtube"></span> WATCH TRAILER </div></a> </article> </article> </article>';
 
