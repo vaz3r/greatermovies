@@ -36,10 +36,8 @@ function fetchMovies() {
             httpClient.onreadystatechange = function () {
                 if (this.readyState == 4 && this.status == 200) {
                     var json = JSON.parse(httpClient.responseText);
-                    var index = 1;
-                    var obj;
-                    var i;
-                    for (i = 0; i <= 1; i++) {
+
+                    for (var i = 0; i <= 1; i++) {
                         var obj = json.data[i];
                         console.log(obj.title);
 
@@ -47,7 +45,7 @@ function fetchMovies() {
 
                         card_template = card_template.replace(/{#TITLE}/gi, obj.title);
                         card_template = card_template.replace(/{#IMAGE}/gi, obj.image);
-                        card_template = card_template.replace(/{#INDEX}/gi, index);
+                        card_template = card_template.replace(/{#INDEX}/gi, str(i));
                         card_template = card_template.replace(/{#RATING}/gi, obj.rating);
                         card_template = card_template.replace(/{#TIME}/gi, obj.time);
                         card_template = card_template.replace(/{#SUMMARY}/gi, obj.summary);
