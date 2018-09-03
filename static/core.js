@@ -45,7 +45,7 @@ function fetchMovies() {
 
                         card_template = card_template.replace(/{#TITLE}/gi, obj.title);
                         card_template = card_template.replace(/{#IMAGE}/gi, obj.image);
-                        card_template = card_template.replace(/{#INDEX}/gi, str(i));
+                        card_template = card_template.replace(/{#INDEX}/gi, i);
                         card_template = card_template.replace(/{#RATING}/gi, obj.rating);
                         card_template = card_template.replace(/{#TIME}/gi, obj.time);
                         card_template = card_template.replace(/{#SUMMARY}/gi, obj.summary);
