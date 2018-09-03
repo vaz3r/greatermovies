@@ -38,8 +38,8 @@ function fetchMovies() {
                     var json = JSON.parse(httpClient.responseText);
                     var index = 1;
                     var obj;
-
-                    for (var i = 0; i <= 1; i++) {
+                    var i;
+                    for (i = 0; i <= 1; i++) {
                         var obj = json.data[i];
                         console.log(obj.title);
 
