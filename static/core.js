@@ -47,7 +47,7 @@ function fetchMovies() {
                         if (!obj.rating.includes("/10")) {
                             rating = obj.rating + "/10";
                         }
-                        
+
                         card_template = card_template.replace(/{#TITLE}/gi, obj.title);
                         card_template = card_template.replace(/{#IMAGE}/gi, obj.image);
                         card_template = card_template.replace(/{#INDEX}/gi, index);
@@ -58,7 +58,7 @@ function fetchMovies() {
 
                         cards.innerHTML += card_template;
 
-                        if (index >= 50) {
+                        if (index >= 60) {
                             break;
                         }
                     }
