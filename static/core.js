@@ -58,7 +58,7 @@ function fetchMovies() {
 
                         cards.innerHTML += card_template;
 
-                        if (index >= 60) {
+                        if (index >= 51) {
                             break;
                         }
                     }
