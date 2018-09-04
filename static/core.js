@@ -51,7 +51,7 @@ function fetchMovies() {
                         card_template = card_template.replace(/{#TITLE}/gi, obj.title);
                         card_template = card_template.replace(/{#IMAGE}/gi, obj.image);
                         card_template = card_template.replace(/{#INDEX}/gi, index);
-                        card_template = card_template.replace(/{#RATING}/gi, obj.rating);
+                        card_template = card_template.replace(/{#RATING}/gi, rating);
                         card_template = card_template.replace(/{#TIME}/gi, obj.runtime);
                         card_template = card_template.replace(/{#SUMMARY}/gi, obj.summary);
                         card_template = card_template.replace(/{#TRAILER}/gi, obj.trailer.replace("https://www.youtube.com/watch?v=", ""));
