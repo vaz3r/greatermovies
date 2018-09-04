@@ -58,6 +58,8 @@ function fetchMovies() {
                             break;
                         }
                     }
+                } else {
+                    alert(this.status);
                 }
             };
 
