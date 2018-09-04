@@ -61,7 +61,7 @@ function fetchMovies() {
                 }
             };
 
-            httpClient.open("GET", 'https://greatermovies.com/movies/data/' + database + '/database.json', true);
+            httpClient.open("GET", 'https://greatermovies.com/movies/database/' + database + '.json', true);
             httpClient.send();
         }
     }
