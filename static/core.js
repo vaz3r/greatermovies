@@ -46,6 +46,8 @@ function fetchMovies() {
 
                         if (!obj.rating.includes("/10")) {
                             rating = obj.rating + "/10";
+                        } else {
+                            rating = obj.rating
                         }
 
                         card_template = card_template.replace(/{#TITLE}/gi, obj.title);
