@@ -1,76 +1,87 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-  <url>
-    <loc>https://greatermovies.com/index.html</loc>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://greatermovies.com/tv</loc>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://greatermovies.com/trailers</loc>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://greatermovies.com/movies</loc>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://greatermovies.com/apps</loc>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://greatermovies.com/devices</loc>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://greatermovies.com/movies/best-action-movies-right-now</loc>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://greatermovies.com/movies/top-movies-this-week</loc>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://greatermovies.com/movies/best-netflix-movies-to-watch-late-august-2018</loc>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://greatermovies.com/trailers/most-popular-movie-trailers</loc>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://greatermovies.com/tv/best-tv-shows-on-netflix-right-now</loc>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://greatermovies.com/movies/most-watched-movies-of-late-august-2018</loc>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://greatermovies.com/trailers/most-popular-tv-shows-trailers</loc>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://greatermovies.com/trailers/most-recent-movie-trailers</loc>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://greatermovies.com/</loc>
+  <lastmod>2018-09-06T17:46:43+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://greatermovies.com/movies</loc>
+  <lastmod>2018-09-06T17:46:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://greatermovies.com/tv</loc>
+  <lastmod>2018-09-06T17:46:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://greatermovies.com/trailers</loc>
+  <lastmod>2018-09-06T17:46:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://greatermovies.com/devices</loc>
+  <lastmod>2018-09-06T17:46:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://greatermovies.com/apps</loc>
+  <lastmod>2018-09-06T17:46:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://greatermovies.com/movies/top-movies-this-week</loc>
+  <lastmod>2018-09-06T17:46:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://greatermovies.com/movies/best-action-movies-right-now</loc>
+  <lastmod>2018-09-06T17:46:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://greatermovies.com/movies/best-drama-movies-right-now</loc>
+  <lastmod>2018-09-06T17:46:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://greatermovies.com/movies/best-netflix-movies-to-watch-late-august-2018</loc>
+  <lastmod>2018-09-06T17:46:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://greatermovies.com/movies/most-watched-movies-of-late-august-2018</loc>
+  <lastmod>2018-09-06T17:46:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://greatermovies.com/tv/best-tv-shows-on-netflix-right-now</loc>
+  <lastmod>2018-09-06T17:46:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://greatermovies.com/trailers/most-popular-movie-trailers</loc>
+  <lastmod>2018-09-06T17:46:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://greatermovies.com/trailers/most-recent-movie-trailers</loc>
+  <lastmod>2018-09-06T17:46:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://greatermovies.com/trailers/most-popular-tv-shows-trailers</loc>
+  <lastmod>2018-09-06T17:46:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
 </urlset>
-<!--<guid value="0633dd1f-a049-467c-8f27-9faf3317cd48" />-->
-<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
