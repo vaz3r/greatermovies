@@ -60,7 +60,7 @@ function fetchMovies() {
 
                         cards.innerHTML += card_template;
 
-                        if (index >= 50) {
+                        if (index >= 80) {
                             break;
                         }
                     }
