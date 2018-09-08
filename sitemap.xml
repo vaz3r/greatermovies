@@ -9,77 +9,87 @@
 
 <url>
   <loc>https://greatermovies.com/</loc>
-  <lastmod>2018-09-06T17:46:43+00:00</lastmod>
+  <lastmod>2018-09-08T01:28:26+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://greatermovies.com/movies</loc>
-  <lastmod>2018-09-06T17:46:43+00:00</lastmod>
+  <lastmod>2018-09-08T01:28:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://greatermovies.com/tv</loc>
-  <lastmod>2018-09-06T17:46:43+00:00</lastmod>
+  <lastmod>2018-09-08T01:28:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://greatermovies.com/trailers</loc>
-  <lastmod>2018-09-06T17:46:43+00:00</lastmod>
+  <lastmod>2018-09-08T01:28:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://greatermovies.com/devices</loc>
-  <lastmod>2018-09-06T17:46:43+00:00</lastmod>
+  <lastmod>2018-09-08T01:28:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://greatermovies.com/apps</loc>
-  <lastmod>2018-09-06T17:46:43+00:00</lastmod>
+  <lastmod>2018-09-08T01:28:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://greatermovies.com/movies/top-movies-this-week</loc>
-  <lastmod>2018-09-06T17:46:43+00:00</lastmod>
+  <lastmod>2018-09-08T01:28:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://greatermovies.com/movies/best-action-movies-right-now</loc>
-  <lastmod>2018-09-06T17:46:43+00:00</lastmod>
+  <lastmod>2018-09-08T01:28:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://greatermovies.com/movies/best-drama-movies-right-now</loc>
-  <lastmod>2018-09-06T17:46:43+00:00</lastmod>
+  <lastmod>2018-09-08T01:28:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://greatermovies.com/movies/best-comedy-movies-right-now</loc>
+  <lastmod>2018-09-08T01:28:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://greatermovies.com/movies/best-adventure-movies-right-now</loc>
+  <lastmod>2018-09-08T01:28:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://greatermovies.com/movies/best-netflix-movies-to-watch-late-august-2018</loc>
-  <lastmod>2018-09-06T17:46:43+00:00</lastmod>
+  <lastmod>2018-09-08T01:28:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://greatermovies.com/movies/most-watched-movies-of-late-august-2018</loc>
-  <lastmod>2018-09-06T17:46:43+00:00</lastmod>
+  <lastmod>2018-09-08T01:28:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://greatermovies.com/tv/best-tv-shows-on-netflix-right-now</loc>
-  <lastmod>2018-09-06T17:46:43+00:00</lastmod>
+  <lastmod>2018-09-08T01:28:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://greatermovies.com/trailers/most-popular-movie-trailers</loc>
-  <lastmod>2018-09-06T17:46:43+00:00</lastmod>
+  <lastmod>2018-09-08T01:28:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://greatermovies.com/trailers/most-recent-movie-trailers</loc>
-  <lastmod>2018-09-06T17:46:43+00:00</lastmod>
+  <lastmod>2018-09-08T01:28:26+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://greatermovies.com/trailers/most-popular-tv-shows-trailers</loc>
-  <lastmod>2018-09-06T17:46:43+00:00</lastmod>
+  <lastmod>2018-09-08T01:28:26+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
