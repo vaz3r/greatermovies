@@ -9,92 +9,138 @@
 
 <url>
   <loc>https://greatermovies.com/</loc>
-  <lastmod>2018-09-10T00:09:13+00:00</lastmod>
   <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://greatermovies.com/movies</loc>
-  <lastmod>2018-09-10T00:09:13+00:00</lastmod>
   <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://greatermovies.com/tv</loc>
-  <lastmod>2018-09-10T00:09:13+00:00</lastmod>
   <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://greatermovies.com/trailers</loc>
-  <lastmod>2018-09-10T00:09:13+00:00</lastmod>
   <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://greatermovies.com/devices</loc>
-  <lastmod>2018-09-10T00:09:13+00:00</lastmod>
   <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://greatermovies.com/apps</loc>
-  <lastmod>2018-09-10T00:09:13+00:00</lastmod>
   <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://greatermovies.com/movies/top-movies-this-week</loc>
-  <lastmod>2018-09-10T00:09:13+00:00</lastmod>
   <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://greatermovies.com/movies/best-action-movies-right-now</loc>
-  <lastmod>2018-09-10T00:09:13+00:00</lastmod>
   <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://greatermovies.com/movies/best-drama-movies-right-now</loc>
-  <lastmod>2018-09-10T00:09:13+00:00</lastmod>
   <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://greatermovies.com/movies/best-comedy-movies-right-now</loc>
-  <lastmod>2018-09-10T00:09:13+00:00</lastmod>
   <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://greatermovies.com/movies/best-adventure-movies-right-now</loc>
-  <lastmod>2018-09-10T00:09:13+00:00</lastmod>
   <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://greatermovies.com/movies/best-sci-fi-movies-right-now</loc>
-  <lastmod>2018-09-10T00:09:13+00:00</lastmod>
   <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://greatermovies.com/movies/best-netflix-movies-to-watch-late-august-2018</loc>
-  <lastmod>2018-09-10T00:09:13+00:00</lastmod>
   <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://greatermovies.com/movies/most-watched-movies-of-late-august-2018</loc>
-  <lastmod>2018-09-10T00:09:13+00:00</lastmod>
   <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://greatermovies.com/tv/best-tv-shows-on-netflix-right-now</loc>
-  <lastmod>2018-09-10T00:09:13+00:00</lastmod>
   <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://greatermovies.com/trailers/most-popular-movie-trailers</loc>
-  <lastmod>2018-09-10T00:09:13+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://greatermovies.com/movies/best-animation-movies-right-now</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://greatermovies.com/movies/best-crime-movies-right-now</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://greatermovies.com/movies/best-fantasy-movies-right-now</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://greatermovies.com/movies/best-documentary-movies-right-now</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://greatermovies.com/movies/best-family-movies-right-now</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://greatermovies.com/movies/best-film-noir-movies-right-now</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://greatermovies.com/movies/best-history-movies-right-now</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://greatermovies.com/movies/best-horror-movies-right-now</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://greatermovies.com/movies/best-musical-movies-right-now</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://greatermovies.com/movies/best-mystery-movies-right-now</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://greatermovies.com/movies/best-romance-movies-right-now</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://greatermovies.com/movies/best-sport-movies-right-now</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://greatermovies.com/movies/best-thriller-movies-right-now</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://greatermovies.com/movies/best-war-movies-right-now</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://greatermovies.com/movies/best-western-movies-right-now</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://greatermovies.com/movies/best-biography-movies-right-now</loc>
   <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://greatermovies.com/trailers/most-recent-movie-trailers</loc>
-  <lastmod>2018-09-10T00:09:13+00:00</lastmod>
   <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://greatermovies.com/trailers/most-popular-tv-shows-trailers</loc>
-  <lastmod>2018-09-10T00:09:13+00:00</lastmod>
   <changefreq>daily</changefreq>
 </url>
 
