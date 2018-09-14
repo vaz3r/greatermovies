@@ -67,7 +67,9 @@ function fetchDatabase() {
                 }
             };
 
-            httpClient.open("GET", '/database/' + database + '.json', true);
+            var paths = window.location.pathname.split('/');
+
+            httpClient.open("GET", window.location.origin + "/" + paths[1] + '/database/' + database + '.json', true);
             httpClient.send();
         }
     }
