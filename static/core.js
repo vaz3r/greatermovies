@@ -24,7 +24,7 @@ function playVideo(videoID) {
 
 // MOVIES ===================================================================================
 
-function fetchMovies() {
+function fetchDatabase() {
     var cards = document.getElementById("cards");
 
     if (cards !== null) {
@@ -67,13 +67,13 @@ function fetchMovies() {
                 }
             };
 
-            httpClient.open("GET", 'https://greatermovies.com/movies/database/' + database + '.json', true);
+            httpClient.open("GET", '/database/' + database + '.json', true);
             httpClient.send();
         }
     }
 }
 
-fetchMovies();
+fetchDatabase();
 
 // TRAILERS ===================================================================================
 
