@@ -138,15 +138,3 @@ function fetchTrailers() {
 }
 
 fetchTrailers();
-
-// Notifications ==========================================================================
-var OneSignal = window.OneSignal || [];
-OneSignal.push(function () {
-    OneSignal.init({
-        appId: "b475ce00-919f-47cc-a6a6-d68dbd1087a9",
-        autoRegister: false,
-        notifyButton: {
-            enable: true,
-        },
-    });
-});
