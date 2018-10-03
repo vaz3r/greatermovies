@@ -68,9 +68,16 @@ function fetchDatabase() {
             };
 
             var paths = window.location.pathname.split('/');
+            var url = "";
 
-            httpClient.open("GET", window.location.origin + "/" + paths[1] + '/database/' + database + '.json', true);
-            httpClient.send();
+            if (paths[1].includes("movies")) {
+                url = "https://f001.backblazeb2.com/file/movies-db/";
+                httpClient.open("GET", url + database + '.json', true);
+                httpClient.send();
+            } else {
+                httpClient.open("GET", window.location.origin + "/" + paths[1] + '/database/' + database + '.json', true);
+                httpClient.send();
+            }
         }
     }
 }
