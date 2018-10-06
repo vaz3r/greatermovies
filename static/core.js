@@ -74,10 +74,18 @@ function fetchDatabase() {
                 url = "https://f001.backblazeb2.com/file/movies-db/";
                 httpClient.open("GET", url + database + '.json', true);
                 httpClient.send();
-            } else {
-                httpClient.open("GET", window.location.origin + "/" + paths[1] + '/database/' + database + '.json', true);
+            } 
+            
+            if (paths[1].includes("tv")) {
+                url = "https://f001.backblazeb2.com/file/tvshows-db/";
+                httpClient.open("GET", url + database + '.json', true);
                 httpClient.send();
             }
+            
+            // else {
+            //     httpClient.open("GET", window.location.origin + "/" + paths[1] + '/database/' + database + '.json', true);
+            //     httpClient.send();
+            // }
         }
     }
 }
