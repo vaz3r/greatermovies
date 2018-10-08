@@ -67,7 +67,7 @@ function fetchDatabase() {
 
                     //LOAD ADS
                     var script = document.createElement('script');
-                    script.src = "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
+                    script.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
                     script.onload = function () {
                         (adsbygoogle = window.adsbygoogle || []).push({
                             google_ad_client: "ca-pub-7903023966618400",
