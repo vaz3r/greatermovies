@@ -75,6 +75,7 @@ function fetchDatabase() {
                         });
                     };
                     document.head.appendChild(script);
+                    console.log("script appended")
                 }
             };
 
