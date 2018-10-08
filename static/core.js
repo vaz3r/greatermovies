@@ -66,6 +66,10 @@ function fetchDatabase() {
                     }
 
                     //LOAD ADS
+                    (adsbygoogle = window.adsbygoogle || []).push({
+                        google_ad_client: "ca-pub-7903023966618400",
+                        enable_page_level_ads: true
+                    });
                     var script = document.createElement('script');
                     script.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
                     script.onload = function () {
@@ -75,7 +79,7 @@ function fetchDatabase() {
                         });
                     };
                     document.head.appendChild(script);
-                    console.log("script appended")
+                    console.log("script appended");
                 }
             };
 
