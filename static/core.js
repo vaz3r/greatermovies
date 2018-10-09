@@ -62,8 +62,9 @@ function fetchDatabase() {
                         cards.innerHTML += card_template;
                         
                         if (index == adCount) {
-                            cards.innerHTML += '<ins class="adsbygoogle"style="display:block"data-ad-format="fluid"data-ad-layout-key="-9y+et+3f-up+17f"data-ad-client="ca-pub-7903023966618400"data-ad-slot="9915892709"></ins>';
-                            adCount += 5;
+                            cards.innerHTML += '<ins class="adsbygoogle" style="display:block" data-ad-format="fluid" data-ad-layout-key="-9y+et+3f-up+17f" data-ad-client="ca-pub-7903023966618400" data-ad-slot="9915892709"></ins>';
+                            cards.innerHTML += '<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7903023966618400" data-ad-slot="2349104311" data-ad-format="auto" data-full-width-responsive="true"></ins>';
+                            //adCount += 5;
                         }
 
                         if (index >= 80) {
