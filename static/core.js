@@ -65,6 +65,7 @@ function fetchDatabase() {
                             cards.innerHTML += '<ins class="adsbygoogle" style="display:block" data-ad-format="fluid" data-ad-layout-key="-9y+et+3f-up+17f" data-ad-client="ca-pub-7903023966618400" data-ad-slot="9915892709"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>';
                             cards.innerHTML += '<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7903023966618400" data-ad-slot="2349104311" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>';
                             adCount += 5;
+                            (adsbygoogle = window.adsbygoogle || []).push({});
                         }
 
                         if (index >= 80) {
