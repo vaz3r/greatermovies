@@ -62,7 +62,7 @@ function fetchDatabase() {
                         cards.innerHTML += card_template;
                         
                         if (index == adCount) {
-                            cards.innerHTML += '<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle"style="display:block"data-ad-format="fluid"data-ad-layout-key="-9y+et+3f-up+17f"data-ad-client="ca-pub-7903023966618400"data-ad-slot="9915892709"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>';
+                            cards.innerHTML += '<ins class="adsbygoogle"style="display:block"data-ad-format="fluid"data-ad-layout-key="-9y+et+3f-up+17f"data-ad-client="ca-pub-7903023966618400"data-ad-slot="9915892709"></ins>';
                             adCount += 5;
                         }
 
