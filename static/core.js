@@ -36,6 +36,7 @@ function fetchDatabase() {
             httpClient.onreadystatechange = function () {
                 if (this.readyState == 4 && this.status == 200) {
                     var json = JSON.parse(httpClient.responseText);
+                    var adCount = 5;
 
                     for (var i = 0; i <= json.data.length - 1; i++) {
                         var index = i + 1;
@@ -59,23 +60,16 @@ function fetchDatabase() {
                         card_template = card_template.replace(/{#TRAILER}/gi, obj.trailer.replace("https://www.youtube.com/watch?v=", ""));
 
                         cards.innerHTML += card_template;
+                        
+                        if (index == adCount) {
+                            cards.innerHTML += '<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle"style="display:block"data-ad-format="fluid"data-ad-layout-key="-9y+et+3f-up+17f"data-ad-client="ca-pub-7903023966618400"data-ad-slot="9915892709"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>';
+                            adCount += 5;
+                        }
 
                         if (index >= 80) {
                             break;
                         }
                     }
-
-                    //LOAD ADS
-                    var script = document.createElement('script');
-                    script.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
-                    script.onload = function () {
-                        (adsbygoogle = window.adsbygoogle || []).push({
-                            google_ad_client: "ca-pub-7903023966618400",
-                            enable_page_level_ads: true
-                        });
-                    };
-                    document.head.appendChild(script);
-                    console.log("script appended");
                 }
             };
 
